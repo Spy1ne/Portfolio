@@ -1,7 +1,7 @@
 {
   "message": "bonjoour i18n !!",
-  "salut": {
-    "test": {
+  "Projects": {
+    "Project1": {
       "name":"ouin",
       "description": "desci"
     }

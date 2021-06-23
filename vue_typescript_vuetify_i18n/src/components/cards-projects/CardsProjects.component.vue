@@ -2,7 +2,7 @@
   <v-card class="mx-auto" max-width="344">
     <v-img :src="$props.src" height="200px"></v-img>
 
-    <v-card-title> Top western road trips </v-card-title>
+    <v-card-title> {{$props.titleProjects}} </v-card-title>
 
     <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
 
@@ -37,6 +37,6 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  props: ['src']
+  props: ['src', 'titleProjects']
 })
 </script>
