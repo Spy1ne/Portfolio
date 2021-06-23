@@ -5,6 +5,7 @@
     <v-main>
       <router-view/>
     </v-main>
+    <pf-Footer/>
   </v-app>
 </template>
 

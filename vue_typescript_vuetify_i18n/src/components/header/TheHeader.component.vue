@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app dense dark>
+  <v-app-bar app dense color="white">
       <v-toolbar-title>{{$store.state.name}} </v-toolbar-title>
       <v-spacer></v-spacer>
       <pf-locale/>

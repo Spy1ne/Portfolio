@@ -2,9 +2,9 @@
   <div class="text-center">
     <v-menu open-on-hover bottom offset-y>
       <template v-slot:activator="{ on, attrs }">
-        <v-btn color="dark" dark v-bind="attrs" v-on="on"><v-icon aria-hidden="false" color="#a55fab">mdi-translate</v-icon> </v-btn>
+        <v-btn  v-bind="attrs" v-on="on"><v-icon aria-hidden="false" color="#a55fab">mdi-translate</v-icon> </v-btn>
       </template>
-      <v-list color="dark" dark  >
+      <v-list color="dark"  >
         <v-list-item v-for="locale in locales" :key="locale.code">
           <v-list-item-title><v-btn  outlined color="#0e8486" dark @click="switchLanguage(locale.code)">{{ locale.name }}</v-btn></v-list-item-title>
         </v-list-item>

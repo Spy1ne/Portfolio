@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     version: '0.0.0',
-    name: 'MyApp'
+    name: 'MAZAL Mathieu'
   },
   mutations: {
   },
