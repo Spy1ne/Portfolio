@@ -1,5 +1,5 @@
 <template>
-  <v-carousel show-arrows-on-hover height="auto" hide-delimiters>
+  <v-carousel fluid pa-0 show-arrows-on-hover height="auto" hide-delimiters>
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"

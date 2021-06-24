@@ -3,22 +3,13 @@
     <v-hover v-slot="{ hover }">
       <a @click="sheet = !sheet">
         <v-card :elevation="hover ? 16 : 2" height="350" max-width="350">
-          <v-img :src="$props.src" height="200px"></v-img>
+          <v-img :src="$props.src" height="250px">
+            <span class="text-h5 pl-4 pt-4 d-inline-block">{{$props.titleProjects}}</span>
+          </v-img>
 
           <v-card-title> {{$props.titleProjects}} </v-card-title>
 
           <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-          <v-card-actions>
-            <v-btn color="orange lighten-2" text> Explore </v-btn>
-
-            <v-spacer></v-spacer>
-
-            <v-btn icon @click="show = !show">
-              <v-icon>{{ show ? "mdi-chevron-up" : "mdi-chevron-down" }}</v-icon>
-            </v-btn>
-
-          </v-card-actions>
 
           <v-expand-transition>
             <div v-show="show">>

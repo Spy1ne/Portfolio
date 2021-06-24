@@ -3,8 +3,8 @@
     <v-btn color="blue" dark @click="sheet = !sheet">
       Open v-model
     </v-btn>
-    <v-bottom-sheet height="800px" v-model="sheet">
-      <v-sheet class="text-center">
+    <v-bottom-sheet v-model="sheet">
+      <v-sheet class="text-center" height="800px">
         <v-btn class="mt-6" text color="red" @click="sheet = !sheet">
           close
         </v-btn>
