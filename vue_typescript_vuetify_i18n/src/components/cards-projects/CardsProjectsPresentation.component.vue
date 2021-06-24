@@ -1,5 +1,4 @@
 <template>
-    <div fluid pa-0 class="grey lighten-2">
         <v-container>
             <v-card-title>{{$t('TitleAllProject')}}</v-card-title>
             <v-card-text>
@@ -31,7 +30,6 @@
                 </v-row>
             </v-card-text>
         </v-container>
-    </div>
 </template>
 
 <script lang="ts">

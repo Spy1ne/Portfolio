@@ -1,14 +1,13 @@
 <template>
-  <div>
+  <v-container fluid pa-0>
     <v-container fluid pa-0>
       <pf-HomeCover/>
     </v-container>
-    <v-divider></v-divider><v-divider></v-divider><v-divider></v-divider><v-divider></v-divider><v-divider></v-divider><v-divider></v-divider><v-divider></v-divider>
-    <v-container fluid pa-0>
+    <v-container>
       <pf-CardsProjectsPresentation/>
     </v-container>
     <v-container>
-        <v-row>
+      <v-row>
         <v-col class="mb-4">
           <h1 class="display-2 font-weight-bold mb-3">
             {{$t('message')}}
@@ -23,7 +22,7 @@
       rzerzerzrzer <v-spacer/>
       eerzerzer
     </v-container>
-  </div>
+  </v-container>
 </template>
 
 <script lang="ts">

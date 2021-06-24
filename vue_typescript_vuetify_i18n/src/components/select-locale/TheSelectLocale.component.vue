@@ -12,18 +12,19 @@
     </v-menu>
   </div>
 </template>
-<script>
+<script lang="ts">
 import { getSupportedLocales } from '@/utils/i18n/supported-locales'
 import i18n from '@/i18n'
+import Vue from 'vue'
 
-export default {
+export default Vue.extend({
   data: () => ({ locales: getSupportedLocales() }),
   methods: {
-    switchLanguage: function (code) {
+    switchLanguage: function (code:string): void {
       i18n.locale = code
     }
   }
-}
+})
 </script>
 
 <style>
