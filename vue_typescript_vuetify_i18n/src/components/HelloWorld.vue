@@ -4,7 +4,12 @@
       <pf-HomeCover/>
     </v-container>
     <v-container>
-      <pf-CardsProjectsPresentation/>
+      <pf-PresentationHomePage/>
+    </v-container>
+    <v-container fluid pa-0>
+      <v-card elevation='10'>
+        <pf-CardsProjectsPresentation/>
+      </v-card>
     </v-container>
     <v-container>
       <v-row>
@@ -13,14 +18,13 @@
             {{$t('message')}}
           </h1>
           <h1 class="display-2 font-weight-bold mb-3">
-            {{$t('salut')}}
+            {{$t('test')}}
           </h1>
         </v-col>
       </v-row>
     </v-container>
     <v-container style="{background-color: #0000;}">
       rzerzerzrzer <v-spacer/>
-      <v-icon>flag-icon flag-icon-bl</v-icon>
       eerzerzer
     </v-container>
   </v-container>

@@ -2,13 +2,13 @@
   <div class="text-center">
     <v-menu open-on-hover bottom offset-y>
       <template v-slot:activator="{ on, attrs }">
-        <v-btn  v-bind="attrs" v-on="on"><v-icon aria-hidden="false" color="#a55fab">mdi-translate</v-icon> </v-btn>
+        <v-btn color='transparent' v-bind="attrs" v-on="on"><country-flag class='mr-1' :country='$store.state.locale'/>{{$store.state.locale}}</v-btn>
       </template>
-      <v-list color="dark"  >
-        <v-list-item v-for="locale in locales" :key="locale.code">
-          <v-list-item-title><v-btn  outlined color="#0e8486" dark @click="switchLanguage(locale.code)">{{ locale.name }}</v-btn></v-list-item-title>
-        </v-list-item>
-      </v-list>
+      <v-card class="mt-3" max-width="400" color="transparent">
+        <v-list-item-group v-for="locale in locales" :key="locale.code">
+          <v-btn color="transparent" @click="switchLanguage(locale.code)"><country-flag class='mr-1' :country='locale.code'/>{{locale.code}}</v-btn>
+        </v-list-item-group>
+      </v-card>
     </v-menu>
   </div>
 </template>
@@ -18,10 +18,17 @@ import i18n from '@/i18n'
 import Vue from 'vue'
 
 export default Vue.extend({
-  data: () => ({ locales: getSupportedLocales() }),
+  created: function () {
+    i18n.locale = this.$store.state.locale
+  },
   methods: {
     switchLanguage: function (code:string): void {
-      i18n.locale = code
+      this.$store.dispatch('switchlanguages', code)
+    }
+  },
+  computed: {
+    locales: function () {
+      return getSupportedLocales().filter(i => i.code !== this.$store.state.locale)
     }
   }
 })

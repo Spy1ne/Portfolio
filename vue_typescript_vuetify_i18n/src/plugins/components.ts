@@ -8,6 +8,7 @@ import ProjectBottom from '@/components/ProjectBottomSheet/ProjectBottom.compone
 import CardsProjects from '@/components/cards-projects/CardsProjects.component.vue'
 import CardsProjectsPresentation from '@/components/cards-projects/CardsProjectsPresentation.component.vue'
 import HomeCover from '@/components/home-cover/HomeCover.component.vue'
+import PresentationHomePage from '@/components/presentation-home-page/PresentationHomePage.component.vue'
 
 Vue.component('pf-header', HeaderComponent)
 Vue.component('pf-locale', SelectLocale)
@@ -16,3 +17,4 @@ Vue.component('pf-Project', ProjectBottom)
 Vue.component('pf-CardsProjects', CardsProjects)
 Vue.component('pf-CardsProjectsPresentation', CardsProjectsPresentation)
 Vue.component('pf-HomeCover', HomeCover)
+Vue.component('pf-PresentationHomePage', PresentationHomePage)

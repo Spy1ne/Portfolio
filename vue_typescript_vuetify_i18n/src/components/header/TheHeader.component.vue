@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flex app dense color="transparent" >
+  <v-app-bar flex app dense color='rgb(255,255,255,0.3)' >
       <v-toolbar-title>{{$store.state.name}} </v-toolbar-title>
       <v-spacer></v-spacer>
       <pf-locale/>

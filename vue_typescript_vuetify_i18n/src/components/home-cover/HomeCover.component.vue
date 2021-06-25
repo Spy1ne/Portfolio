@@ -1,10 +1,12 @@
 <template>
   <v-container fluid pa-0>
-    <v-carousel height="auto" fluid pa-0 show-arrows-on-hover hide-delimiters>
-      <v-carousel-item v-for="(item,i) in items" :key="i">
-        <v-img :src="item.src" style="height:100vh"/>
-      </v-carousel-item>
-    </v-carousel>
+    <v-card class='rounded-0' elevation='10'>
+      <v-carousel height="auto" fluid pa-0 show-arrows-on-hover hide-delimiters>
+        <v-carousel-item v-for="(item,i) in items" :key="i">
+          <v-img :src="item.src" style="height:100vh"/>
+        </v-carousel-item>
+      </v-carousel>
+    </v-card>
   </v-container>
 </template>
 
