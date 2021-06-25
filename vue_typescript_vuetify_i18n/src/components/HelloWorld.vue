@@ -20,6 +20,7 @@
     </v-container>
     <v-container style="{background-color: #0000;}">
       rzerzerzrzer <v-spacer/>
+      <v-icon>flag-icon flag-icon-bl</v-icon>
       eerzerzer
     </v-container>
   </v-container>
