@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid pa-0>
+  <div fluid pa-0>
     <v-container fluid pa-0>
       <pf-HomeCover/>
     </v-container>
@@ -23,11 +23,12 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container style="{background-color: #0000;}">
+    <v-container class="pa-0 ma-0" style="{background-color: #0000;}">
       rzerzerzrzer <v-spacer/>
       eerzerzer
+
     </v-container>
-  </v-container>
+  </div>
 </template>
 
 <script lang="ts">
