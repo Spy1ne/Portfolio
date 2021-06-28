@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-card-title>{{$t('TitleAllProject')}}</v-card-title>
+        <v-card-title class="justify-center mb-5">{{$t('TitleAllProject')}}</v-card-title>
         <v-card-text>
             <v-row justify="center">
                 <v-col cols="12" sm="6" :md="mdt">

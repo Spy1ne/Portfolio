@@ -7,7 +7,7 @@
       <pf-PresentationHomePage/>
     </v-container>
     <v-container fluid pa-0>
-      <v-card elevation='10'>
+      <v-card color="teal lighten-4" elevation='10'>
         <pf-CardsProjectsPresentation/>
       </v-card>
     </v-container>
