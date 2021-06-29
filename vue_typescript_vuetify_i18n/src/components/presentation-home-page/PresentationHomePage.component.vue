@@ -40,7 +40,7 @@
                                     <v-col cols="2" md="auto">
                                         <v-tooltip bottom>
                                             <template v-slot:activator="{on, attrs}">
-                                                <v-img src="@/assets/logo-soft/autocad_45px_50px.png" v-on="on" v-bind="attrs"/>
+                                                <v-img src="@/assets/logo-soft/autocad_50px_50px.png" v-on="on" v-bind="attrs"/>
                                             </template>
                                             <span>Autocad</span>
                                         </v-tooltip>
@@ -48,7 +48,7 @@
                                     <v-col cols="2" md="auto" >
                                         <v-tooltip bottom>
                                             <template v-slot:activator="{on, attrs}">
-                                                <v-img src="@/assets/logo-soft/revit_41px_50px.png" v-on="on" v-bind="attrs"/>
+                                                <v-img src="@/assets/logo-soft/revit_50px_50px.png" v-on="on" v-bind="attrs"/>
                                             </template>
                                             <span>Revit</span>
                                         </v-tooltip>

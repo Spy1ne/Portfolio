@@ -1,13 +1,10 @@
 <template>
 <v-footer dark padless>
-  <v-card flat tile class="flex teal lighten-4 white--text text-center">
+  <v-card flat tile class="flex teal lighten-3 white--text text-center">
     <v-card-text>
       <v-btn v-for="network in networks" :key="network.icon" class="mx-4 white--text" icon @click="onclick(network.url)" >
         <v-icon size="24px"> {{ network.icon }} </v-icon>
       </v-btn>
-    </v-card-text>
-    <v-card-text class="">
-     zzz
     </v-card-text>
         <v-divider></v-divider>
         <v-card-text class="white--text">
