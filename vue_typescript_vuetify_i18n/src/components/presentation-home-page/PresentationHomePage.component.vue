@@ -7,7 +7,7 @@
                         <v-img src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"></v-img>
                     </v-avatar>
                 </v-col>
-                <v-col align="left" class="ml-5" cols="12" :sm="smt" :lg="lgt">
+                <v-col align="left" cols="12" :sm="smt" :lg="lgt">
                     <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
                     <h3>{{ $t("PresentationHomePage.school") }}</h3>
                     <p>

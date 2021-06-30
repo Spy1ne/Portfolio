@@ -1,6 +1,6 @@
 <template>
 <v-footer dark padless>
-  <v-card flat tile class="flex teal lighten-3 white--text text-center">
+  <v-card elevation='14' flat tile class="flex teal lighten-3 white--text text-center">
     <v-card-text>
       <v-btn v-for="network in networks" :key="network.icon" class="mx-4 white--text" icon @click="onclick(network.url)" >
         <v-icon size="24px"> {{ network.icon }} </v-icon>
@@ -8,7 +8,7 @@
     </v-card-text>
         <v-divider></v-divider>
         <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} <strong>Contact</strong>
     </v-card-text>
   </v-card>
   </v-footer>

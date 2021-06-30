@@ -7,8 +7,8 @@
       <pf-PresentationHomePage/>
     </v-container>
     <v-container fluid pa-0>
-      <v-card color="teal lighten-3" elevation='14'>
-        <pf-CardsProjectsPresentation/>
+      <v-card class='rounded-0' align="center" color="teal lighten-3" elevation='14'>
+        <pf-CardsProjectsSlide/>
       </v-card>
     </v-container>
     <v-container>
@@ -23,10 +23,9 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container class="pa-0 ma-0" style="{background-color: #0000;}">
+    <v-container class="pa-0" style="{background-color: #0000;}">
       rzerzerzrzer <v-spacer/>
       eerzerzer
-
     </v-container>
   </div>
 </template>
