@@ -15,33 +15,33 @@
     "Project1": {
       "name":"Project1",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
       "tag" : "test",
       "sheet": "pf-Project1"
     },
     "Project2": {
       "name":"Project2",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
       "tag" : "test",
       "sheet": "contenue2"
     },
     "Project3": {
       "name":"Project3",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
       "tag" : "aa"
     },
     "Project4": {
       "name":"Project4",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
       "tag" : "aa"
     },
     "Project5": {
       "name":"Project5",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
       "tag" : "aa"
     }
   }

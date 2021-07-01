@@ -2,7 +2,7 @@
     <v-hover v-slot="{ hover }">
       <a @click="sheet = !sheet">
         <v-card :elevation="hover ? 16 : 2" height="350px" max-width="350" >
-          <v-img align="left" :src="$props.project.thumbnail_src" height="250px">
+          <v-img align="left" :src="require(`@/assets/${$props.project.thumbnail_name}`)" height="250px">
             <span class="text-h5 pl-4 pt-4 d-inline-block">{{$props.project.name}}</span>
           </v-img>
 
@@ -24,6 +24,7 @@
 </template>
 
 <script>
+
 import Vue from 'vue'
 
 export default Vue.extend({
