@@ -13,35 +13,73 @@
   },
   "Projects": {
     "Project1": {
-      "name":"Project1",
+      "name":"Salle à manger",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
       "tag" : "test",
+      "softwares": [
+        "logo-soft/vray_50px_50px.png",
+        "logo-soft/revit_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
       "sheet": "pf-Project1"
     },
     "Project2": {
-      "name":"Project2",
+      "name":"Salle de bain",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
       "tag" : "test",
+      "softwares": [
+        "logo-soft/archicad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
       "sheet": "contenue2"
     },
     "Project3": {
-      "name":"Project3",
+      "name":"La Colocation",
       "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
+      "thumbnail_name": "ProjetPresentation/projetcoloc.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
       "tag" : "aa"
     },
     "Project4": {
-      "name":"Project4",
+      "name":"Parcours Urbain",
       "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
+      "thumbnail_name": "ProjetPresentation/projetparcourpres.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png",
+        "logo-soft/build_50px_50px.png"
+      ],
       "tag" : "aa"
     },
     "Project5": {
       "name":"Project5",
       "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
+      "thumbnail_name": "ProjetPresentation/projetbibliotruckrpres.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/build_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
+      "tag" : "aa"
+    },
+    "Project6": {
+      "name":"Project6",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetpopupres.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
       "tag" : "aa"
     }
   }

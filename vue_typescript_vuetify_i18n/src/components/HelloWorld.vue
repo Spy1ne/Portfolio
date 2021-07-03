@@ -14,7 +14,7 @@
     <v-container>
       <v-row>
         <v-col class="mb-4">
-          <h1 class="display-2 font-weight-bold mb-3">
+          <h1 color="teal lighten-3" class="display-2 font-weight-bold mb-3">
             {{$t('message')}}
           </h1>
           <h1 class="display-2 font-weight-bold mb-3">
@@ -24,8 +24,8 @@
       </v-row>
     </v-container>
     <v-container class="pa-0" style="{background-color: #0000;}">
-      rzerzerzrzer <v-spacer/>
-      eerzerzer
+      ici Projet de 3éme année <v-spacer/>
+      Le deroulement etc.
     </v-container>
   </div>
 </template>

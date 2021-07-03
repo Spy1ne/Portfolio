@@ -20,20 +20,12 @@ export default Vue.extend({
   data: () => ({
     networks: [
       {
-        icon: 'mdi-facebook',
-        url: 'http://zezez.com'
-      },
-      {
-        icon: 'mdi-twitter',
-        url: 'http://google.com'
-      },
-      {
         icon: 'mdi-linkedin',
-        url: 'http://google.com'
+        url: 'https://www.linkedin.com/in/mathieu-mazal-51b130124/'
       },
       {
         icon: 'mdi-instagram',
-        url: 'http://google.com'
+        url: 'https://www.instagram.com/mathieumzl/'
       }
     ]
   }),

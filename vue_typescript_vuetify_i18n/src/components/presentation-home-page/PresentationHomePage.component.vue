@@ -77,6 +77,22 @@
                                             <span>InDesign</span>
                                         </v-tooltip>
                                     </v-col>
+                                    <v-col cols="2" md="auto" >
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{on, attrs}">
+                                                <v-img src="@/assets/logo-soft/pencil_50px_50px.png" v-on="on" v-bind="attrs"/>
+                                            </template>
+                                            <span>Dessin à la main</span>
+                                        </v-tooltip>
+                                    </v-col>
+                                    <v-col cols="2" md="auto" >
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{on, attrs}">
+                                                <v-img src="@/assets/logo-soft/build_50px_50px.png" v-on="on" v-bind="attrs"/>
+                                            </template>
+                                            <span>Maquette</span>
+                                        </v-tooltip>
+                                    </v-col>
                                 </v-row>
                             </v-card-text>
                         </v-card>
