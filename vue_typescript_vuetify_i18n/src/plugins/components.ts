@@ -17,6 +17,9 @@ import PresentationHomePage from '@/components/presentation-home-page/Presentati
 /* Import Projet Sheet */
 import Project1 from '@/components/projects-all-details/Project1.component.vue'
 
+/* Import Text Anim */
+import textAnimp from '@/components/textAnimp/TextAnim.component.vue'
+
 Vue.component('pf-header', HeaderComponent)
 Vue.component('pf-locale', SelectLocale)
 Vue.component('pf-Footer', FooterComponent)
@@ -32,3 +35,6 @@ Vue.component('pf-PresentationHomePage', PresentationHomePage)
 
 /* Component Projet Sheet */
 Vue.component('pf-Project1', Project1)
+
+/* Component Text Anim */
+Vue.component('pf-TextAnim', textAnimp)

@@ -14,7 +14,7 @@
   "Projects": {
     "Project1": {
       "name":"Salle à manger",
-      "description": "desci",
+      "description": "description",
       "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
       "tag" : "test",
       "softwares": [
@@ -62,7 +62,7 @@
     "Project5": {
       "name":"Project5",
       "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetbibliotruckrpres.png",
+      "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
       "softwares": [
         "logo-soft/photoshop_50px_50px.png",
         "logo-soft/autocad_50px_50px.png",

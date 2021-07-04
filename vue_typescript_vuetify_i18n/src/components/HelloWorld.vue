@@ -25,6 +25,7 @@
     </v-container>
     <v-container class="pa-0" style="{background-color: #0000;}">
       ici Projet de 3éme année <v-spacer/>
+         <pf-TextAnim />
       Le deroulement etc.
     </v-container>
   </div>

@@ -1,96 +1,26 @@
-<template>
+<template v-slot:activator="{ on, attrs }">
             <div align="center" class="sheet_container">
                 <v-container fluid class="sheet_item">
                         <v-card min-width="400px" max-width="50vw" flat color="transparent">
                     <v-btn class="mt-5 mb-2" text color="blue-grey darken-1" @click="sheet = !sheet">
                         quitter
                     </v-btn>
-                    <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
-                    <h3 class="mb-5">{{ $t("PresentationHomePage.school") }}</h3>
-                    <v-card dark color="teal darken-2">
-                        <h3>Competences</h3>
-                        <v-card-text min-height="70" align="center" class="white text--primary">
-                            <v-row justify="center">
-                                <v-col cols="2" md="auto">
-                                    <v-tooltip bottom>
-                                        <template v-slot:activator="{on, attrs}">
-                                            <v-img src="@/assets/logo-soft/autocad_50px_50px.png" v-on="on" v-bind="attrs"/>
-                                        </template>
-                                        <span>Autocad</span>
-                                    </v-tooltip>
-                                </v-col>
-                                <v-col cols="2" md="auto" >
-                                    <v-tooltip bottom>
-                                        <template v-slot:activator="{on, attrs}">
-                                            <v-img src="@/assets/logo-soft/revit_50px_50px.png" v-on="on" v-bind="attrs"/>
-                                        </template>
-                                        <span>Revit</span>
-                                    </v-tooltip>
-                                </v-col>
-                                <v-col cols="2" md="auto">
-                                    <v-tooltip bottom>
-                                        <template v-slot:activator="{on, attrs}">
-                                            <v-img src="@/assets/logo-soft/vray_50px_50px.png" v-on="on" v-bind="attrs"/>
-                                        </template>
-                                        <span>Vray</span>
-                                    </v-tooltip>
-                                </v-col>
-                                <v-col cols="2" md="auto">
-                                    <v-tooltip bottom>
-                                        <template v-slot:activator="{on, attrs}">
-                                            <v-img src="@/assets/logo-soft/photoshop_50px_50px.png" v-on="on" v-bind="attrs"/>
-                                        </template>
-                                        <span>Photoshop</span>
-                                    </v-tooltip>
-                                </v-col>
-                                <v-col cols="2" md="auto">
-                                    <v-tooltip bottom>
-                                        <template v-slot:activator="{on, attrs}">
-                                            <v-img src="@/assets/logo-soft/indesign_50px_50px.png" v-on="on" v-bind="attrs"/>
-                                        </template>
-                                        <span>InDesign</span>
-                                    </v-tooltip>
-                                </v-col>
-                                <v-col cols="2" md="auto">
-                                    <v-tooltip bottom>
-                                        <template v-slot:activator="{on, attrs}">
-                                            <v-img src="@/assets/logo-soft/pencil_50px_50px.png" v-on="on" v-bind="attrs"/>
-                                        </template>
-                                        <span>Dessin à la main</span>
-                                    </v-tooltip>
-                                </v-col>
-                            </v-row>
-                        </v-card-text>
+                    <h1 class="font-weight-medium">{{ $t("Projects.Project1.name") }}</h1>
+                    <h3 class="mb-5">{{ $t("Projects.Project1.description") }}</h3>
+                    <v-card height="auto" elevation='14' class="justify-center">
+                        <v-img src="@/assets/ProjetPresentation/projetillu3d/projetillu3drender.png"/>
                     </v-card>
                     <v-timeline class="text-center">
-                        <v-timeline-item icon="mdi-school" color="teal darken-1" fill-dot>
+                        <v-timeline-item class="mt-14" icon="1" color="teal darken-1" fill-dot>
                             <span class="font-weight-bold" slot="opposite">2019-2022</span>
                             <v-card dark color="teal darken-1">
-                                <h3>ESDAC (Clermont-Ferrand)</h3>
-                                <v-card-text class="white text--primary">
-                                    <p>3éme année de Bachelor Design d'Espace</p>
-                                </v-card-text>
+                                <v-img src="@/assets/ProjetPresentation/projetillu3d/projetilluplan.png"/>
                             </v-card>
                         </v-timeline-item>
-                        <v-timeline-item icon="mdi-account-tie" color="teal lighten-1" fill-dot>
+                        <v-timeline-item icon="2" color="teal lighten-1" fill-dot>
                             <span class="font-weight-bold" slot="opposite">Mars 2020</span>
                             <v-card dark color="teal lighten-1">
-                                <h3>Stage cabinet d'architecte (Thuret)</h3>
-                                <v-card-text class="white text--primary">
-                                    <p>Atelier Richard DUMAS (Thuret)<br />Etude et conception
-                                    d'aménagement intérieur.<br />Dessin et réalisation de
-                                    mobiliers.</p>
-                                </v-card-text>
-                            </v-card>
-                        </v-timeline-item>
-                        <v-timeline-item icon="mdi-briefcase-variant" color="teal lighten-2" fill-dot>
-                            <span class="font-weight-bold" slot="opposite">2016-2018</span>
-                            <v-card dark color="teal lighten-2">
-                                <h3>Professionnelles</h3>
-                                <v-card-text class="white text--primary">
-                                    <p>Contrat 9 mois Laboratoire GEN-BIO (Clermont-ferrand)
-                                    <br>Contrat 2 ans EHPAD (Aigueperse)</p>
-                                </v-card-text>
+                               <v-img src="@/assets/ProjetPresentation/projetillu3d/projetillucoupe.png"/>
                             </v-card>
                         </v-timeline-item>
                     </v-timeline>
@@ -100,6 +30,7 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
+
 export default Vue.extend({
   data: () => ({
     smt: '8',
