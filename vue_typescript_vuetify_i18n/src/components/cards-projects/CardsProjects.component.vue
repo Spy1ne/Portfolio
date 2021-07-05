@@ -18,7 +18,7 @@
           </v-fade-transition>
         </v-card>
         <v-bottom-sheet v-model="sheet">
-          <v-sheet class="text-center" min-height="300px">
+          <v-sheet class="text-center" min-height="400px">
             <div :is='$props.project.sheet'>
             </div>
           </v-sheet>
@@ -44,19 +44,3 @@ export default Vue.extend({
   props: ['project']
 })
 </script>
-
-<style>
-.sheet_container{
-position:relative;
-border-right: 1px #f8f7f3 solid;
-/* background-image:url(images/bubble.png); */
-/* background-color: black; */
-}
-
-.sheet_item
-{
-height:90vh;
-overflow-y:auto;
-position:relative;
-}
-</style>

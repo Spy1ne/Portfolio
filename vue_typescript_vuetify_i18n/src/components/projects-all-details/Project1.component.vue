@@ -1,29 +1,23 @@
 <template v-slot:activator="{ on, attrs }">
             <div align="center" class="sheet_container">
                 <v-container fluid class="sheet_item">
-                        <v-card min-width="400px" max-width="50vw" flat color="transparent">
-                    <v-btn class="mt-5 mb-2" text color="blue-grey darken-1" @click="sheet = !sheet">
-                        quitter
-                    </v-btn>
-                    <h1 class="font-weight-medium">{{ $t("Projects.Project1.name") }}</h1>
-                    <h3 class="mb-5">{{ $t("Projects.Project1.description") }}</h3>
-                    <v-card height="auto" elevation='14' class="justify-center">
-                        <v-img src="@/assets/ProjetPresentation/projetillu3d/projetillu3drender.png"/>
-                    </v-card>
-                    <v-timeline class="text-center">
-                        <v-timeline-item class="mt-14" icon="1" color="teal darken-1" fill-dot>
-                            <span class="font-weight-bold" slot="opposite">2019-2022</span>
-                            <v-card dark color="teal darken-1">
-                                <v-img src="@/assets/ProjetPresentation/projetillu3d/projetilluplan.png"/>
-                            </v-card>
-                        </v-timeline-item>
-                        <v-timeline-item icon="2" color="teal lighten-1" fill-dot>
-                            <span class="font-weight-bold" slot="opposite">Mars 2020</span>
-                            <v-card dark color="teal lighten-1">
-                               <v-img src="@/assets/ProjetPresentation/projetillu3d/projetillucoupe.png"/>
-                            </v-card>
-                        </v-timeline-item>
-                    </v-timeline>
+                        <v-card flat color="transparent">
+                          <v-btn class="mt-5 mb-2" text color="blue-grey darken-1" @click="sheet = !sheet">
+                            quitter
+                        </v-btn>
+                        <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
+                        <h3 class="mb-5">{{ $t("PresentationHomePage.school") }}</h3>
+    <v-container fluid>
+      <v-row dense>
+        <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
+          <v-card flat color="blue-grey">
+            <v-img :src="card.src" class="white--text align-end" :heights="card.heights">
+              <v-card-title v-text="card.title"></v-card-title>
+            </v-img>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
                     </v-card>
                 </v-container>
             </div>
@@ -33,15 +27,15 @@ import Vue from 'vue'
 
 export default Vue.extend({
   data: () => ({
-    smt: '8',
-    lgt: '6',
-    smti: '4',
-    lgti: '2',
-    sizei: '100%',
     sheet: true,
     show: false,
     scrollInvoked: 0,
-    offsetTop: 0
+    offsetTop: 0,
+    cards: [
+      { title: 'Pre-fab homes', src: require('@/assets/ProjetPresentation/projetillu3d/projetillu3drender.png'), heights: 'fluid', flex: 12 },
+      { title: 'Favorite road trips', src: require('@/assets/ProjetPresentation/projetillu3d/projetilluplan.png'), heights: '', flex: 12 },
+      { title: 'Best airlines', src: require('@/assets/ProjetPresentation/projetillu3d/projetillucoupe.png'), heights: '', flex: 12 }
+    ]
   }),
   methods: {
     onclick: function () {
