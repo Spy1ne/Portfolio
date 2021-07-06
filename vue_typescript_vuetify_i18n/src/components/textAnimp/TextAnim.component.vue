@@ -10,7 +10,7 @@
       :steps="['zz',200,'👋',1000,
       ]"
       :loop="Infinity"
-      :wrapper="'h3'"
+      :wrapper="'h5'"
     ></typical>
   </div>
 </template>
