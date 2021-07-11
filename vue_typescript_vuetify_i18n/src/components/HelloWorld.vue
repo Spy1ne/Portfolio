@@ -3,14 +3,18 @@
     <v-container fluid pa-0>
       <pf-HomeCover/>
     </v-container>
+    <v-divider color="white"/>
     <v-container>
       <pf-PresentationHomePage/>
     </v-container>
+    <v-divider color="white"/>
     <v-container fluid pa-0>
-      <v-card class='rounded-0' align="center" color="teal lighten-3" elevation='14'>
+        <v-divider></v-divider>
+      <v-card class='rounded-0' align="center" color="blue-grey darken-4" elevation='14'>
         <pf-CardsProjectsSlide/>
       </v-card>
     </v-container>
+    <v-divider color="white"/>
     <v-container>
       <v-row>
         <v-col class="mb-4">

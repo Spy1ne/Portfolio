@@ -1,12 +1,12 @@
 <template>
     <v-hover v-slot="{ hover }">
       <a @click="sheet = !sheet">
-        <v-card :elevation="hover ? 18 : 5" max-width="350" >
+        <v-card class='rounded-0' :elevation="hover ? 18 : 7" max-width="350" >
           <v-img align="left" :src="require(`@/assets/${$props.project.thumbnail_name}`)" height="350px" width="350px">
-            <span class="text-h5 pl-4 pt-4 d-inline-block"><p style="color :#80CBC4"> {{$props.project.name}} </p></span>
+            <span class="text-h5 pl-4 pt-4 d-inline-block"><p style="color :"> {{$props.project.name}} </p></span>
           </v-img>
           <v-fade-transition >
-            <v-overlay v-if="hover" opacity="0.9" absolute color="blue-grey darken-2">
+            <v-overlay v-if="hover" opacity="0.9" absolute color='rgba(109,91,58,1'>
               <v-card-title min-height="70">
                 <v-row>
                   <v-col v-for="(item, i) in $props.project.softwares" :key="i">
@@ -19,7 +19,7 @@
           </v-fade-transition>
         </v-card>
         <v-bottom-sheet v-model="sheet">
-          <v-sheet class="text-center" min-height="400px">
+          <v-sheet min-height="100vh" class="text-center">
             <div :is='$props.project.sheet'>
             </div>
           </v-sheet>
