@@ -19,6 +19,9 @@
           </v-fade-transition>
         </v-card>
         <v-bottom-sheet v-model="sheet">
+          <v-divider color="#cf9b58"/>
+          <v-divider color="#cf9b58"/>
+          <v-divider color="#cf9b58"/>
           <v-sheet min-height="100vh" class="text-center">
             <div :is='$props.project.sheet'>
             </div>
@@ -28,7 +31,7 @@
     </v-hover>
 </template>
 
-<script>
+<script lang="ts">
 
 import Vue from 'vue'
 

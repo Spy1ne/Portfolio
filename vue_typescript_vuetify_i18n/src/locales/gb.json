@@ -5,7 +5,7 @@
     "name":"MAZAL Mathieu",
     "school":"Etudiant troisième années Bachelor ESDAC",
     "Description": {
-      "paragraph1": "Cette année j'ai eu l'opportunité de travailler sur différents types de projet comme la réhabilitation de musée symbolisant les œuvres présentes, une habitation dédiée aux personnes âgées, une habitation dans un espace réduit et son extérieur, un aménagement d'un espace symbolisant une marque et d’autres projets toujours plus variés.",
+      "paragraph1":"Cette année j'ai eu l'opportunité de travailler sur différents types de projet comme la réhabilitation de musée symbolisant les œuvres présentes, une habitation dédiée aux personnes âgées, une habitation dans un espace réduit et son extérieur, un aménagement d'un espace symbolisant une marque et d’autres projets toujours plus variés.",
       "paragraph2":"La conception de maquette et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume, c’est alors que cette année j’ai décidé de m’intéresser aux logiciels 3D, c'est pour cela que l'architecture c'est présenté comme étant une vocation pour moi.",
       "paragraph3":"J'aime crée un espace qui réponds au besoin des clients, c'est ainsi que j'aimerai pouvoir travailler avec des particuliers et aménager un espace fonctionnel et parfaitement intégrés à un lieu de vie."
     },
@@ -13,33 +13,74 @@
   },
   "Projects": {
     "Project1": {
-      "name":"Project1",
-      "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
-      "tag" : "test"
+      "name":"Salle à manger",
+      "description": "description",
+      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
+      "tag" : "test",
+      "softwares": [
+        "logo-soft/vray_50px_50px.png",
+        "logo-soft/revit_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
+      "sheet": "pf-Project1",
+      "details": "zgeg"
     },
     "Project2": {
-      "name":"Project2",
+      "name":"Salle de bain",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
-      "tag" : "test"
+      "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
+      "tag" : "test",
+      "softwares": [
+        "logo-soft/archicad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
+      "sheet": "contenue2"
     },
     "Project3": {
-      "name":"Project3",
+      "name":"La Colocation",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetcoloc.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
       "tag" : "aa"
     },
     "Project4": {
-      "name":"Project4",
+      "name":"Parcours Urbain",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetparcourpres.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png",
+        "logo-soft/build_50px_50px.png"
+      ],
       "tag" : "aa"
     },
     "Project5": {
       "name":"Project5",
       "description": "desci",
-      "thumbnail_src": "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+      "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/build_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
+      "tag" : "aa"
+    },
+    "Project6": {
+      "name":"Project6",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetpopupres.png",
+      "softwares": [
+        "logo-soft/photoshop_50px_50px.png",
+        "logo-soft/autocad_50px_50px.png",
+        "logo-soft/pencil_50px_50px.png"
+      ],
       "tag" : "aa"
     }
   }

@@ -45,7 +45,7 @@ export default Vue.extend({
 </script>
 <style>
 .gradient-text {
-  font-family:'Impact';
+  font-family:'Consolas';
   height: 40px;
   background-color: #f3ec78;
   background-image: linear-gradient(360deg, #cf9b58, #b88f59);
