@@ -24,7 +24,13 @@
         "logo-soft/pencil_50px_50px.png"
       ],
       "sheet": "pf-Project1",
-      "details": "le detail"
+      "v_sheet": {
+        "details": "le detail",
+        "return": "RETOUR",
+        "photo1": "Rendu 3D",
+        "photo2": "Plan",
+        "photo3": "Coupe"
+      }
     },
     "Project2": {
       "name":"Salle de bain",

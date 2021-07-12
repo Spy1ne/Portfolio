@@ -3,24 +3,30 @@
   <div align="center" class="sheet_container">
     <v-container fluid class="sheet_item">
       <v-card flat color="transparent">
-        <h1 class="mt-5 mb-2 gradient-text">{{$t('Projects.Project1.name')}}</h1>
+        <h1 class="mt-5 mb-2 gradient-text">
+          {{$t('Projects.Project1.name')}}
+        </h1>
         <v-btn class="" text color="white" @click="sheet = !sheet">
-                  Retour
+          {{$t('Projects.Project1.v_sheet.return')}}
         </v-btn>
         <v-divider width="1050px" class="mt-6" color="#cf9b58"/>
         <v-divider width="1050px" color="#cf9b58"/>
         <v-divider width="1050px" class="mb-6" color="#cf9b58"/>
         <v-container class="center justify-center">
-          <v-row class="center justify-center">
+          <v-row class="center justify-center ">
             <v-col cols="12" v-for="card in cards1" :key="card.title">
               <v-img :max-width="card.widths" :max-height="card.heights" :src="card.src" class="white--text align-end" :heights="card.heights">
-                <v-card-title v-text="card.title"></v-card-title>
+                <v-card-title elevation="10">
+                  {{$t('Projects.Project1.v_sheet.photo1')}}
+                </v-card-title>
               </v-img>
             </v-col>
-            <p>{{$t('Projects.Project1.details')}}</p>
+            <p>
+              {{$t('Projects.Project1.v_sheet.details')}}
+            </p>
             <v-col cols="12" v-for="card in cards2" :key="card.title">
               <v-img :max-width="card.widths" :max-height="card.heights" :src="card.src" class="white--text align-end" :heights="card.heights">
-                <v-card-title v-text="card.title"></v-card-title>
+                <v-card-title v-text="$t(card.title)"></v-card-title>
               </v-img>
             </v-col>
           </v-row>
@@ -37,11 +43,11 @@ export default Vue.extend({
     scrollInvoked: 0,
     offsetTop: 0,
     cards1: [
-      { title: 'Pre-fab homes', src: require('@/assets/ProjetPresentation/projetillu3d/projetillu3drender.png'), widths: '1000px', heights: '' }
+      { title: '', src: require('@/assets/ProjetPresentation/projetillu3d/projetillu3drender.png'), widths: '1000px', heights: '' }
     ],
     cards2: [
-      { title: 'Favorite road trips', src: require('@/assets/ProjetPresentation/projetillu3d/projetilluplan.png'), widths: '600px' },
-      { title: 'Best airlines', src: require('@/assets/ProjetPresentation/projetillu3d/projetillucoupe.png'), widths: '600px' }
+      { title: 'Projects.Project1.v_sheet.photo2', src: require('@/assets/ProjetPresentation/projetillu3d/projetilluplan.png'), widths: '600px' },
+      { title: 'Projects.Project1.v_sheet.photo3', src: require('@/assets/ProjetPresentation/projetillu3d/projetillucoupe.png'), widths: '600px' }
     ]
   }),
   methods: {
