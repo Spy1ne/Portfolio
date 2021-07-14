@@ -23,7 +23,7 @@
           <v-divider color="#cf9b58"/>
           <v-divider color="#cf9b58"/>
           <v-sheet min-height="100vh" class="text-center">
-            <div :is='$props.project.sheet'>
+              <div :is='$props.project.sheet'>
             </div>
           </v-sheet>
         </v-bottom-sheet>
