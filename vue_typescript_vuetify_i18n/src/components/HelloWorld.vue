@@ -11,7 +11,7 @@
     <v-container fluid pa-0>
         <v-divider></v-divider>
       <v-card class='rounded-0' align="center" color="blue-grey darken-4" elevation='14'>
-        <pf-CardsProjectsSlide/>
+         <pf-CardsProjectsPresentation/>
       </v-card>
     </v-container>
     <v-divider color="white"/>

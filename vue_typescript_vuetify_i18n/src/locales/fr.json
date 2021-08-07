@@ -1,6 +1,7 @@
 {
   "message": "bonjoour i18n !!",
   "TitleAllProject":"Projets",
+  "return": "RETOUR",
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
     "school":"Etudiant troisième années Bachelor ESDAC",
@@ -12,7 +13,7 @@
     "button":"Curriculum Vitae"
   },
   "Projects": {
-    "Project1": {
+    "Project100": {
       "name":"Salle à manger",
       "description": "description",
       "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
@@ -23,16 +24,16 @@
         "logo-soft/autocad_50px_50px.png",
         "logo-soft/pencil_50px_50px.png"
       ],
-      "sheet": "pf-Project1",
+      "sheet": "pf-Project100",
       "v_sheet": {
-        "details": "le detail",
-        "return": "RETOUR",
-        "photo1": "Rendu 3D",
-        "photo2": "Plan",
-        "photo3": "Coupe"
+        "src": "ProjetPresentation/projetillu3d/projetillu3drender.png",
+        "src1": [
+          "ProjetPresentation/projetillu3d/projetilluplan.png",
+          "ProjetPresentation/projetillu3d/projetillucoupe.png"
+        ]
       }
     },
-    "Project2": {
+    "Project120": {
       "name":"Salle de bain",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
@@ -41,9 +42,16 @@
         "logo-soft/archicad_50px_50px.png",
         "logo-soft/pencil_50px_50px.png"
       ],
-      "sheet": "contenue2"
+      "sheet": "pf-Project120",
+      "v_sheet": {
+        "src": "ProjetPresentation/projetillu3d/projetillu3drender.png",
+        "src1": [
+          "ProjetPresentation/projetillu3d/projetilluplan.png",
+          "ProjetPresentation/projetillu3d/projetillucoupe.png"
+        ]
+      }
     },
-    "Project3": {
+    "Project130": {
       "name":"La Colocation",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetcoloc.png",
@@ -52,9 +60,17 @@
         "logo-soft/autocad_50px_50px.png",
         "logo-soft/pencil_50px_50px.png"
       ],
-      "tag" : "aa"
+      "tag" : "aa",
+      "sheet": "pf-Project130",
+      "v_sheet": {
+        "src": "ProjetPresentation/projetillu3d/projetillu3drender.png",
+        "src1": [
+          "ProjetPresentation/projetillu3d/projetilluplan.png",
+          "ProjetPresentation/projetillu3d/projetillucoupe.png"
+        ]
+      }
     },
-    "Project4": {
+    "Project140": {
       "name":"Parcours Urbain",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetparcourpres.png",
@@ -66,7 +82,7 @@
       ],
       "tag" : "aa"
     },
-    "Project5": {
+    "Project150": {
       "name":"Project5",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
@@ -78,7 +94,7 @@
       ],
       "tag" : "aa"
     },
-    "Project6": {
+    "Project160": {
       "name":"Project6",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetpopupres.png",

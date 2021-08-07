@@ -18,14 +18,55 @@
             </v-overlay>
           </v-fade-transition>
         </v-card>
+        <!-- Sheet -->
         <v-bottom-sheet v-model="sheet">
-          <v-divider color="#cf9b58"/>
-          <v-divider color="#cf9b58"/>
-          <v-divider color="#cf9b58"/>
+        <!-- sheet componet -->
           <v-sheet min-height="100vh" class="text-center">
-              <div :is='$props.project.sheet'>
+            <div align="center" class="sheet_container">
+              <v-divider color="#cf9b58"/>
+              <v-divider color="#cf9b58"/>
+              <v-divider color="#cf9b58"/>
+              <v-container fluid class="sheet_item">
+                <v-card class="center justify-center" flat color="transparent">
+                  <h1 class="mt-6 mb-6 gradient-text">
+                    {{$props.project.name}}
+                  </h1>
+                  <v-btn class="" outlined color="white" @click="sheet = !sheet">
+                    {{$t('return')}}
+                  </v-btn>
+                  <v-divider width="1050px" class="mt-4" color="#cf9b58"/>
+                  <v-divider width="1050px" color="#cf9b58"/>
+                  <v-divider width="1050px" class="mb-6" color="#cf9b58"/>
+                  <v-container class="center justify-center">
+                    <v-row class="center justify-center ">
+                      <v-col cols="12">
+                        <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${$props.project.v_sheet.src}`)" />
+                         <!--  <v-img :src="require(`@/assets/${$props.project.v_sheet.src}`)" /> -->
+                      </v-col>
+                      <v-col cols="12">
+                        <v-divider width="800px" class="mb-6 mt-13" color="#cf9b58"/>
+                          <v-card-text>
+                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
+                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
+                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
+                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
+                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.
+                          </v-card-text>
+                        <v-divider width="800px" class="mb-8 mt-6" color="#cf9b58"/>
+                      </v-col>
+                      <v-col>
+                        <silent-box :gallery="cards2"/>
+                        <v-card-subtitle flat class="flat text-h6 mt-15" style="color :#FFFFFF">LOGO Logiciels et descriptif rapide</v-card-subtitle>
+                      </v-col>
+                    </v-row>
+                  <!-- directive -->
+                  </v-container>
+                </v-card>
+              </v-container>
             </div>
           </v-sheet>
+            <!--<div :is='$props.project.sheet'>
+            </div>-->
         </v-bottom-sheet>
       </a>
     </v-hover>
@@ -33,12 +74,23 @@
 
 <script lang="ts">
 
+import VueExpandableImage from 'vue-expandable-image'
 import Vue from 'vue'
 
+Vue.use(VueExpandableImage)
 export default Vue.extend({
+  mounted () {
+    const viewportMeta = document.createElement('meta')
+    viewportMeta.name = 'viewport'
+    viewportMeta.content = 'width=device-width, initial-scale=1'
+    document.head.appendChild(viewportMeta)
+  },
   data: () => ({
+    el: '#webapp',
     sheet: false,
-    show: false
+    show: false,
+    scrollInvoked: 0,
+    offsetTop: 0
   }),
   methods: {
     onclick: function () {
@@ -48,3 +100,92 @@ export default Vue.extend({
   props: ['project']
 })
 </script>
+<style>
+element.style {
+    opacity: 1;
+}
+@media (max-width: 1024px) {
+  #silentbox-overlay__close-button {
+    width: 0 !important;
+    height: 0 !important;
+    margin-right: 30px;
+  }
+}
+body>.expandable-image.expanded>img {
+    width: 100%;
+    max-width: 70% !important;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.image {
+  width: 70%;
+  max-width: 100%;
+}
+
+.expandable-image {
+  position: relative;
+  transition: 0.25s opacity;
+  cursor: zoom-in;
+}
+
+body>.expandable-image.expanded {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0) !important;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  padding-bottom: 0 !important;
+  cursor: default;
+}
+
+body > .expandable-image.expanded > .close-button {
+  display: block;
+}
+
+.close-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+}
+svg {
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
+}
+svg path {
+  fill: #FFF;
+}
+.expand-button {
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+  top: 10px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+
+.expandable-image:hover .expand-button {
+  opacity: 1;
+}
+.expand-button svg {
+  width: 20px;
+  height: 20px;
+}
+.expand-button path {
+  fill: #FFF;
+}
+
+.expandable-image img {
+  width: 100%;
+}
+</style>

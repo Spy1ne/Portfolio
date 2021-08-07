@@ -22,6 +22,8 @@ import i18n from '@/i18n'
 export default Vue.extend({
   name: 'titlep',
   data: () => ({
+    sheet: false,
+    show: false,
     mdt: 'auto',
     lgt: '4',
     filterTag: ''
