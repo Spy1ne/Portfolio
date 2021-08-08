@@ -54,8 +54,10 @@
                           </v-card-text>
                         <v-divider width="800px" class="mb-8 mt-6" color="#cf9b58"/>
                       </v-col>
+                      <v-col cols="12" v-for="(item, i) in $props.project.v_sheet.src1" :key="i">
+                        <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${item}`)"  />
+                      </v-col>
                       <v-col>
-                        <silent-box :gallery="cards2"/>
                         <v-card-subtitle flat class="flat text-h6 mt-15" style="color :#FFFFFF">LOGO Logiciels et descriptif rapide</v-card-subtitle>
                       </v-col>
                     </v-row>
@@ -97,24 +99,28 @@ export default Vue.extend({
       console.log('click')
     }
   },
-  props: ['project']
+  props: ['project', 'v_sheet', 'src1']
 })
 </script>
 <style>
 element.style {
     opacity: 1;
+    width: 100px !important;
 }
 @media (max-width: 1024px) {
   #silentbox-overlay__close-button {
-    width: 0 !important;
-    height: 0 !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
     margin-right: 30px;
   }
+  svg {
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
+}
 }
 body>.expandable-image.expanded>img {
     width: 100%;
-    max-width: 70% !important;
-    max-height: 100%;
+    max-width: 90% !important;
+    max-height: 90% !important;
     object-fit: contain;
     margin: 0 auto;
 }
@@ -151,7 +157,7 @@ body > .expandable-image.expanded > .close-button {
 .close-button {
   position: fixed;
   top: 10px;
-  right: 10px;
+  right: 0 !important;
   display: none;
   cursor: pointer;
 }

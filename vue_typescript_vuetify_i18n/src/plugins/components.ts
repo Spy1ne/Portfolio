@@ -14,13 +14,13 @@ import CardsProjectsSlide from '@/components/cards-projects/CardsProjectsSlide.c
 import HomeCover from '@/components/home-cover/HomeCover.component.vue'
 import PresentationHomePage from '@/components/presentation-home-page/PresentationHomePage.component.vue'
 
-/* Import Projet Sheet */
+/* Import Projet Sheet
 import Project100 from '@/components/projects-all-details/Project100.component.vue'
 import Project120 from '@/components/projects-all-details/Project120.component.vue'
 import Project130 from '@/components/projects-all-details/Project130.component.vue'
 import Project140 from '@/components/projects-all-details/Project140.component.vue'
 import Project150 from '@/components/projects-all-details/Project150.component.vue'
-import Project160 from '@/components/projects-all-details/Project160.component.vue'
+import Project160 from '@/components/projects-all-details/Project160.component.vue' */
 
 /* Import Text Anim */
 import textAnimp from '@/components/textAnimp/TextAnim.component.vue'
@@ -38,13 +38,13 @@ Vue.component('pf-CardsProjectsSlide', CardsProjectsSlide)
 Vue.component('pf-HomeCover', HomeCover)
 Vue.component('pf-PresentationHomePage', PresentationHomePage)
 
-/* Component Projet Sheet */
+/* Component Projet Sheet
 Vue.component('pf-Project100', Project100)
 Vue.component('pf-Project120', Project120)
 Vue.component('pf-Project130', Project130)
 Vue.component('pf-Project140', Project140)
 Vue.component('pf-Project150', Project150)
-Vue.component('pf-Project160', Project160)
+Vue.component('pf-Project160', Project160) */
 
 /* Component Text Anim */
 Vue.component('pf-TextAnim', textAnimp)
