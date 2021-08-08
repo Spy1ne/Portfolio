@@ -79,15 +79,17 @@
       ],
       "tag" : "aa",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
+        "src": "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersSituation.png",
         "src1": [
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluPlan.png",
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluCoupe.png"
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPlans.png",
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbCoupe.png",
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersZoom.png",
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbMaquettes.png"
         ]
       }
     },
     "Project150": {
-      "name":"Project5",
+      "name":"BiblioTruck",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
       "softwares": [
@@ -98,15 +100,18 @@
       ],
       "tag" : "aa",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
+        "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
         "src1": [
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluPlan.png",
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluCoupe.png"
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPlans.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckConcept.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckDetails.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPersInt.png"
         ]
       }
     },
     "Project160": {
-      "name":"Project6",
+      "name":"Pop-up Store",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetpopupres.png",
       "softwares": [
@@ -116,10 +121,11 @@
       ],
       "tag" : "aa",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
+        "src": "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreAxo.png",
         "src1": [
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluPlan.png",
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluCoupe.png"
+          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreShemas.png",
+          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStorePlan.png",
+          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreCoupe.png"
         ]
       }
     }
