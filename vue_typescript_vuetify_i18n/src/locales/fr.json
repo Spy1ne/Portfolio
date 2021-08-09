@@ -25,6 +25,13 @@
       "tag" : "aa",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetColocation/ProjetColocPlan.png",
+        "description": [
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like. <br> Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+        ],
         "src1": [
           "ProjetPresentation/ProjetColocation/ProjetColocRecherche.png",
           "ProjetPresentation/ProjetColocation/ProjetColocAmenagement.png"
@@ -44,6 +51,13 @@
       ],
       "v_sheet": {
         "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
+        "description": [
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+        ],
         "src1": [
           "ProjetPresentation/ProjetIllu3D/ProjetIlluPlan.png",
           "ProjetPresentation/ProjetIllu3D/ProjetIlluCoupe.png"
@@ -61,6 +75,13 @@
       ],
       "v_sheet": {
         "src": "ProjetPresentation/ProjetSDB/ProjetSDBrender.png",
+        "description": [
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+        ],
         "src1": [
           "ProjetPresentation/ProjetSDB/ProjetSDBplan.png",
           "ProjetPresentation/ProjetSDB/ProjetSDBdessin.png"
@@ -80,6 +101,13 @@
       "tag" : "aa",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersSituation.png",
+        "description": [
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+        ],
         "src1": [
           "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPlans.png",
           "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbCoupe.png",
@@ -89,7 +117,7 @@
       }
     },
     "Project150": {
-      "name":"BiblioTruck",
+      "name":"Biblio Truck",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
       "softwares": [
@@ -101,6 +129,13 @@
       "tag" : "aa",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
+        "description": [
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+        ],
         "src1": [
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPlans.png",
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckConcept.png",
@@ -122,6 +157,13 @@
       "tag" : "aa",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreAxo.png",
+        "description": [
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
+          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+        ],
         "src1": [
           "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreShemas.png",
           "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStorePlan.png",

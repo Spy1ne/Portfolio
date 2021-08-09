@@ -46,11 +46,9 @@
                       <v-col cols="12">
                         <v-divider width="800px" class="mb-6 mt-13" color="#cf9b58"/>
                           <v-card-text>
-                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
-                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
-                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
-                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>
-                          Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.
+                            <v-col cols="12" md="9" xl="7" v-for="(item, i) in $props.project.v_sheet.description" :key="i">
+                              <p>{{ item }}</p>
+                            </v-col>
                           </v-card-text>
                         <v-divider width="800px" class="mb-8 mt-6" color="#cf9b58"/>
                       </v-col>
