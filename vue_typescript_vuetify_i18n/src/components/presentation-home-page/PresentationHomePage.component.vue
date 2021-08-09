@@ -40,6 +40,22 @@
                                     <v-col cols="2" md="auto">
                                         <v-tooltip bottom>
                                             <template v-slot:activator="{on, attrs}">
+                                                <v-img width="57px" src="@/assets/logo-soft/rhino_50px_50px.png" v-on="on" v-bind="attrs"/>
+                                            </template>
+                                            <span>Rhino</span>
+                                        </v-tooltip>
+                                    </v-col>
+                                    <v-col cols="2" md="auto">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{on, attrs}">
+                                                <v-img width="57px" src="@/assets/logo-soft/enscape_50px_50px.png" v-on="on" v-bind="attrs"/>
+                                            </template>
+                                            <span>Enscape</span>
+                                        </v-tooltip>
+                                    </v-col>
+                                    <v-col cols="2" md="auto">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{on, attrs}">
                                                 <v-img src="@/assets/logo-soft/autocad_50px_50px.png" v-on="on" v-bind="attrs"/>
                                             </template>
                                             <span>Autocad</span>

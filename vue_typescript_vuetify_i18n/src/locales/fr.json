@@ -26,11 +26,9 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetColocation/ProjetColocPlan.png",
         "description": [
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like. <br> Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+          "La colocation regroupe trois amis qui ont acheté deux appartements situés au même étage d’un immeuble du type haussmannien.",
+          "L’objectif était de donner une nouvelle identité à ces appartements en les regroupant pour donner de plus grands espaces de vie et d’intimité. Il a fallu redéfinir les espaces en donnant de nouveaux cadrages sur la ville tout en faisant attention aux différents points lumineux.",
+          "L’appartement comprend trois chambres avec SDB, un couloir qui permet de faire la transition entre les différentes pièces de vie et un espace commun muni d’un salon, d’une salle à manger et d’une cuisine."
         ],
         "src1": [
           "ProjetPresentation/ProjetColocation/ProjetColocRecherche.png",
@@ -52,11 +50,7 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
         "description": [
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+          "Une habitation pour un couple où l’on devait retrouver une chambre, un coin salon, une salle à manger et une cuisine."
         ],
         "src1": [
           "ProjetPresentation/ProjetIllu3D/ProjetIlluPlan.png",
@@ -76,11 +70,7 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetSDB/ProjetSDBrender.png",
         "description": [
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+          "Le projet de la salle de bain est un projet personnel où l’objectif était de la rénover en gardant le même espace."
         ],
         "src1": [
           "ProjetPresentation/ProjetSDB/ProjetSDBplan.png",
@@ -102,11 +92,9 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersSituation.png",
         "description": [
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+          "Le projet est situé devant l’Opéra de Clermont-Ferrand proche de la place de Jaude et ce porte sur la modularité et le théâtre.",
+          "J’ai réfléchi à l’interaction entre les visiteurs et sur l’usage qu’ils pouvaient proposer. Il devait par la même occasion s’adapter au lieu tout en proposant une expérience aux visiteurs.",
+          "Mon projet est divisé en deux modules offrant une modularité ce qui permet d’avoir une interaction et de créer une scène et un décor qui change avec le temps. La lumière créant des silhouettes au sol permettant de rendre la scène dynamique."
         ],
         "src1": [
           "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPlans.png",
@@ -128,19 +116,15 @@
       ],
       "tag" : "aa",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
+        "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.png",
         "description": [
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+          "Le projet se porte sur une bibliothèque mobile de 10 mètres de longueur et de 3 mètres de largeur."
         ],
         "src1": [
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPlans.png",
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckConcept.png",
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckDetails.png",
-          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.png",
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPersInt.png"
         ]
       }
@@ -158,11 +142,8 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreAxo.png",
         "description": [
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like.<br>",
-          "Colored text, you may change alert color  into any you'd likeColored text, you may change alert color  into any you'd like."
+          "En groupe nous devions aménager un pop-up store en reprenant le principe de la marque Dr. Martens.",
+          "Le concept était de montrer le dynamisme de cette marque tout en reprenant son histoire et son design."
         ],
         "src1": [
           "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreShemas.png",

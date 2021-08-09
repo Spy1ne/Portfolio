@@ -31,7 +31,7 @@
                   <h1 class="mt-6 mb-6 gradient-text">
                     {{$props.project.name}}
                   </h1>
-                  <v-btn class="" outlined color="white" @click="sheet = !sheet">
+                  <v-btn class="mb-5" outlined color="white" @click="sheet = !sheet">
                     {{$t('return')}}
                   </v-btn>
                   <v-divider width="1050px" class="mt-4" color="#cf9b58"/>
@@ -39,18 +39,26 @@
                   <v-divider width="1050px" class="mb-6" color="#cf9b58"/>
                   <v-container class="center justify-center">
                     <v-row class="center justify-center ">
-                      <v-col cols="12">
+                      <v-col class="mt-4" cols="12">
                         <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${$props.project.v_sheet.src}`)" />
                          <!--  <v-img :src="require(`@/assets/${$props.project.v_sheet.src}`)" /> -->
                       </v-col>
+                      <v-col class="mt-5" cols="2" md="auto" v-for="(item, i) in $props.project.softwares" :key="i">
+                        <v-tooltip bottom>
+                          <template v-slot:activator="{on, attrs}">
+                              <v-img width="57px" :src="require(`@/assets/${item}`)" v-on="on" v-bind="attrs"/>
+                          </template>
+                          <span>Rhino</span>
+                        </v-tooltip>
+                      </v-col>
                       <v-col cols="12">
-                        <v-divider width="800px" class="mb-6 mt-13" color="#cf9b58"/>
+                        <v-divider width="800px" class="mb-6 mt-5" color="#cf9b58"/>
                           <v-card-text>
                             <v-col cols="12" md="9" xl="7" v-for="(item, i) in $props.project.v_sheet.description" :key="i">
                               <p>{{ item }}</p>
                             </v-col>
                           </v-card-text>
-                        <v-divider width="800px" class="mb-8 mt-6" color="#cf9b58"/>
+                        <v-divider width="800px" class="mb-8 mt-1" color="#cf9b58"/>
                       </v-col>
                       <v-col cols="12" v-for="(item, i) in $props.project.v_sheet.src1" :key="i">
                         <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${item}`)"  />
