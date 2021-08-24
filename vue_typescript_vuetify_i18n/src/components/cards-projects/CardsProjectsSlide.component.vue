@@ -1,3 +1,0 @@
-<template>
-        <pf-CardsProjectsPresentation/>
-</template>
