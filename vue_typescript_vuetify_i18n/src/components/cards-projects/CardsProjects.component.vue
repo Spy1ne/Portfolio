@@ -80,7 +80,7 @@
     </v-hover>
 </template>
 
-<script lang="ts">
+<script>
 
 import VueExpandableImage from 'vue-expandable-image'
 import Vue from 'vue'
