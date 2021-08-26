@@ -2,9 +2,9 @@
   <v-container fluid pa-0>
     <v-card class='rounded-0' elevation='10'>
       <v-carousel cycle height="auto" fluid pa-0 show-arrows-on-hover hide-delimiters>
-        <v-carousel-item v-for="(item,i) in items" :key="i">
-          <v-img :src="item.src" style="height:100vh"/>
-        </v-carousel-item>
+          <video disablepictureinpicture preload="auto" muted="muted" autoplay="autoplay" loop="loop" style="height:100vh">
+              <source data-v-5e24875b="" src="https://youtu.be/nLd8iPMjff0" type="video/mp4">
+          </video>
       </v-carousel>
     </v-card>
   </v-container>
@@ -18,16 +18,7 @@ export default Vue.extend({
     return {
       items: [
         {
-          src: 'https://media.giphy.com/media/PCQ3vx4nsBQTRgMvgT/giphy.gif'
-        },
-        {
-          src: 'https://media.giphy.com/media/yUfrQSO8Wkpn442vBz/giphy.gif'
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg'
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+          src: 'https://youtu.be/nLd8iPMjff0'
         }
       ]
     }
