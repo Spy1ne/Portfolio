@@ -17,9 +17,9 @@
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetcoloc.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
       "tag" : "aa",
       "v_sheet": {
@@ -39,21 +39,22 @@
       "name":"Salle à manger",
       "description": "description",
       "thumbnail_name": "ProjetPresentation/ProjetIllu3D.png",
-      "tag" : "test",
       "softwares": [
-        "logo-soft/vray_50px_50px.png",
-        "logo-soft/revit_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/vray_50px_50px.png", "tooltip": "V-Ray"},
+        { "logo": "logo-soft/revit_50px_50px.png", "tooltip": "Revit"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
+        
       ],
+      "tag" : "aa",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
         "description": [
           "Une habitation pour un couple où l’on devait retrouver une chambre, un coin salon, une salle à manger et une cuisine."
         ],
         "src1": [
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluPlan.png",
-          "ProjetPresentation/ProjetIllu3D/ProjetIlluCoupe.png"
+          "ProjetPresentation/ProjetIllu3D/projetilluplan.png",
+          "ProjetPresentation/ProjetIllu3D/projetillucoupe.png"
         ]
       }
     },
@@ -63,8 +64,8 @@
       "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
       "tag" : "test",
       "softwares": [
-        "logo-soft/archicad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/archicad_50px_50px.png", "tooltip": "Archicad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
       "v_sheet": {
         "src": "ProjetPresentation/ProjetSDB/ProjetSDBrender.png",
@@ -82,10 +83,10 @@
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetparcourpres.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png",
-        "logo-soft/build_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
       "tag" : "aa",
       "v_sheet": {
@@ -108,10 +109,10 @@
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/build_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
       "tag" : "aa",
       "v_sheet": {
@@ -133,9 +134,9 @@
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetpopupres.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
       "tag" : "aa",
       "v_sheet": {

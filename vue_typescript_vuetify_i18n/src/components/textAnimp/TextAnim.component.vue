@@ -1,16 +1,18 @@
 <template>
     <div id="app">
     <typical
-      :steps="['Hello', 1000, 'Hello world!', 500]"
-      :wrapper="'h2'"
+    class="font-weight-medium typicalWrapper"
+      :steps="['Mathieu MAZAL',8000,'',500,
+      ]"
+      :wrapper="'h1'"
       :loop="Infinity"
-    ></typical>
+    >{{ $t("PresentationHomePage.name") }}</typical>
     <typical
       class="typicalWrapper"
-      :steps="['zz',200,'👋',1000,
+      :steps="['Etudiant troisième années Bachelor ESDAC',5000,'',500,
       ]"
       :loop="Infinity"
-      :wrapper="'h5'"
+      :wrapper="'h3'"
     ></typical>
   </div>
 </template>
@@ -34,7 +36,7 @@ export default Vue.extend({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
 }
 .typicalWrapper::after {
   content: "|";

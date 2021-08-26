@@ -29,6 +29,10 @@ export default Vue.extend({
       {
         icon: 'mdi-instagram',
         url: 'https://www.instagram.com/mathieumzl/'
+      },
+      {
+        icon: 'mdi-artstation',
+        url: 'https://www.artstation.com/mathieu_mazal'
       }
     ]
   }),

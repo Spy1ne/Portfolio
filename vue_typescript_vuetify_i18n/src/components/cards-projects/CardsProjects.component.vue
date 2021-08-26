@@ -10,7 +10,7 @@
               <v-card-title min-height="70">
                 <v-row>
                   <v-col v-for="(item, i) in $props.project.softwares" :key="i">
-                    <v-img max-width="35px" max-height="35px" :src="require(`@/assets/${item}`)" />
+                    <v-img max-width="35px" max-height="35px" :src="require(`@/assets/${item.logo}`)" />
                   </v-col>
                 </v-row>
               </v-card-title>
@@ -46,9 +46,9 @@
                       <v-col class="mt-5" cols="2" md="auto" v-for="(item, i) in $props.project.softwares" :key="i">
                         <v-tooltip bottom>
                           <template v-slot:activator="{on, attrs}">
-                              <v-img width="57px" :src="require(`@/assets/${item}`)" v-on="on" v-bind="attrs"/>
+                              <v-img width="57px" :src="require(`@/assets/${item.logo}`)" v-on="on" v-bind="attrs"/>
                           </template>
-                          <span>Rhino</span>
+                          <span> {{item.tooltip}}</span>
                         </v-tooltip>
                       </v-col>
                       <v-col cols="12">

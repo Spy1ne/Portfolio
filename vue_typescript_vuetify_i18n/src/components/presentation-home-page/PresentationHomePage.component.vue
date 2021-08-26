@@ -3,8 +3,7 @@
         <v-card flat color="transparent" align="center" justify="center" class="mt-5 mb-5">
             <v-row align="center" justify="center">
                 <v-col class="mt-4 mb-3" cols="12" lg="8">
-                    <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
-                    <h3>{{ $t("PresentationHomePage.school") }}</h3>
+                    <pf-TextAnim />
                     <p align="left">
                     <br />{{ $t("PresentationHomePage.Description.paragraph1") }}
                     <br /><br />{{ $t("PresentationHomePage.Description.paragraph2") }}
@@ -31,7 +30,7 @@
                         <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
                         <h3 class="mb-7">{{ $t("PresentationHomePage.school") }}</h3>
                         <v-card outlined color="">
-                            <v-card class="mt-0" color="teal darken-2 !important">
+                            <v-card class="mt-0 rounded-0" color="teal darken-2 !important">
                             <h3>Competences</h3>
                             </v-card>
                             <v-card-text min-height="70" align="center" class="white text--primary">
@@ -115,7 +114,7 @@
                             <v-timeline-item class="mt-3" icon="mdi-school" color="teal darken-1" fill-dot>
                                 <span class="font-weight-bold" slot="opposite">2019-2022</span>
                                 <v-card outlined >
-                                    <v-card color="teal darken-2 !important" >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
                                     <h3>ESDAC (Clermont-Ferrand)</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
@@ -126,7 +125,7 @@
                              <v-timeline-item icon="mdi-account-tie" color="teal lighten-1" fill-dot>
                                 <span class="font-weight-bold" slot="opposite">Juillet-Août 2021</span>
                                 <v-card outlined>
-                                    <v-card color="teal darken-2 !important" >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
                                     <h3>Stage cabinet d'architecte (Vichy)</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
@@ -137,7 +136,7 @@
                             <v-timeline-item icon="mdi-account-tie" color="teal lighten-1" fill-dot>
                                 <span class="font-weight-bold" slot="opposite">Mars 2020</span>
                                 <v-card outlined>
-                                    <v-card color="teal darken-2 !important" >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
                                     <h3>Stage cabinet d'architecte (Thuret)</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
@@ -150,7 +149,7 @@
                             <v-timeline-item icon="mdi-briefcase-variant" color="teal lighten-2" fill-dot>
                                 <span class="font-weight-bold" slot="opposite">2016-2018</span>
                                 <v-card outlined>
-                                    <v-card color="teal darken-2 !important" >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
                                     <h3>Professionnelles</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
@@ -159,6 +158,7 @@
                                     </v-card-text>
                                 </v-card>
                             </v-timeline-item>
+                               <v-btn elevation="5" rounded color="teal lighten-2" class="ma-0" outlined large target="_blank" :href="require('@/assets/cv/cvaout2021.pdf')"><span class="font-weight-bold">Download CV</span></v-btn>
                         </v-timeline>
                         </v-card>
                     </v-container>
@@ -170,6 +170,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+
 export default Vue.extend({
   data: () => ({
     lgt: '6',
