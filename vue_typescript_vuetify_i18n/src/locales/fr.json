@@ -1,7 +1,11 @@
 {
+  "HeaderPresentation": "Présentation",
+  "HeaderProjets" :"Projets",
+  "downloadcv": "Télécharger le CV",
   "message": "bonjoour i18n !!",
   "TitleAllProject":"Projets",
   "return": "RETOUR",
+  "close": "Quitter",
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
     "school":"Etudiant troisième années Bachelor ESDAC",
@@ -11,7 +15,59 @@
     },
     "button":"Curriculum Vitae"
   },
+  "PreSkills":"Competences",
+  "PreHandDrawn":"Dessin à la main",
+  "PreModel":"Maquette",
+  "PreTimelineDate01": "2019-2022",
+  "PreTimelineTitre01": "ESDAC (Clermont-Ferrand)",
+  "PreTimelineDescr01": "3éme année de Bachelor Design d'Espace",
+  "PreTimelineDate02": "Juillet-Août 2021",
+  "PreTimelineTitre02": "Stage cabinet d'architecte (Vichy)",
+  "PreTimelineDescr02": "Agence DOUX Architecte",
+  "PreTimelineDescr02_1": "Participation aux projets",
+  "PreTimelineDescr02_2": "Dessin et réalisation de plan 2D et rendu 3D",
+  "PreTimelineDate03": "Mars 2020",
+  "PreTimelineTitre03": "Stage cabinet d'architecte (Thuret)",
+  "PreTimelineDescr03": "Atelier Richard DUMAS (Thuret)",
+  "PreTimelineDescr03_1":"Etude et conception d'aménagement intérieur.",
+  "PreTimelineDescr03_2":"Dessin et réalisation de mobiliers.",
+  "PreTimelineDate04": "2016-2018",
+  "PreTimelineTitre04": "Professionnelles",
+  "PreTimelineDescr04": "Contrat 9 mois Laboratoire GEN-BIO (Clermont-ferrand)",
+  "PreTimelineDescr04_1": "Contrat 2 ans EHPAD (Aigueperse)",
+  "FilterAll": "Tous",
+  "FilterStudent": "Etudiant",
+  "FilterPersonal": "Personnel",
+  "FilterIProfessional": "Professionnel",
   "Projects": {
+    "Project99": {
+      "name":"La Chambre",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetlachambre.png",
+      "softwares": [
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "aa",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetLaChambre/Lachambre01.png",
+        "description": [
+          "La colocation regroupe trois amis qui ont acheté deux appartements situés au même étage d’un immeuble du type haussmannien.",
+          "L’objectif était de donner une nouvelle identité à ces appartements en les regroupant pour donner de plus grands espaces de vie et d’intimité. Il a fallu redéfinir les espaces en donnant de nouveaux cadrages sur la ville tout en faisant attention aux différents points lumineux.",
+          "L’appartement comprend trois chambres avec SDB, un couloir qui permet de faire la transition entre les différentes pièces de vie et un espace commun muni d’un salon, d’une salle à manger et d’une cuisine."
+        ],
+        "srcurl": [
+          "/embed/e1SaNQLOquY"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetLaChambre/Lachambre02.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre03.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre04.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre05.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre07.png"
+        ]
+      }
+    },
     "Project100": {
       "name":"La Colocation",
       "description": "desci",

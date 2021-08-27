@@ -1,8 +1,12 @@
 <template>
-  <v-app-bar flex app dense color='rgb(255,255,255,0.3)' >
+  <v-app-bar flex app dense color='rgb(38, 50, 56, 0.6)' >
       <v-toolbar-title> <a @click="scrollTo('#home')" style="color:white !important">{{$store.state.name}}</a> </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn @click="scrollTo('#project')"> aaa</v-btn>
+      <h3 class="mr-4">|</h3>
+          <a class="mr-4" style="color:white !important" @click="scrollTo('#present')"><h3>{{$t('HeaderPresentation')}}</h3></a>
+          <h3 class="mr-4">|</h3>
+          <a class="mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
+          <h3 class="mr-4">|</h3>
       <pf-locale/>
   </v-app-bar>
 </template>

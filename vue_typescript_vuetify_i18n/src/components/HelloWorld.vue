@@ -2,16 +2,16 @@
   <div fluid pa-0>
     <v-container fluid pa-0>
       <pf-HomeCover id="home"/>
+          <v-divider class="mt-n1" color="white"/>
     </v-container>
-    <v-divider class="mt-n1" color="white"/>
-    <v-container>
+    <v-container id="present">
       <pf-PresentationHomePage/>
     </v-container>
     <v-divider color="white"/>
-    <v-container fluid pa-0>
+    <v-container fluid pa-0 id="projects">
         <v-divider></v-divider>
       <v-card class='rounded-0' align="center" color="blue-grey darken-4" elevation='14'>
-         <pf-CardsProjectsPresentation id="project"/>
+         <pf-CardsProjectsPresentation/>
       </v-card>
     </v-container>
     <v-divider color="white"/>

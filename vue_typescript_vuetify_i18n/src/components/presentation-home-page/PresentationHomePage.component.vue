@@ -25,13 +25,13 @@
                     <v-container fluid class="sheet_item">
                     <v-card min-width="400px" max-width="50vw" flat color="transparent">
                         <v-btn class="mt-5 mb-6" outlined color="white" @click="sheet = !sheet">
-                            quitter
+                            {{$t("close")}}
                         </v-btn>
                         <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
                         <h3 class="mb-7">{{ $t("PresentationHomePage.school") }}</h3>
                         <v-card outlined color="">
                             <v-card class="mt-0 rounded-0" color="teal darken-2 !important">
-                            <h3>Competences</h3>
+                            <h3>{{$t("PreSkills")}}</h3>
                             </v-card>
                             <v-card-text min-height="70" align="center" class="white text--primary">
                                 <v-row justify="center">
@@ -72,7 +72,7 @@
                                             <template v-slot:activator="{on, attrs}">
                                                 <v-img src="@/assets/logo-soft/vray_50px_50px.png" v-on="on" v-bind="attrs"/>
                                             </template>
-                                            <span>Vray</span>
+                                            <span>V-Ray</span>
                                         </v-tooltip>
                                     </v-col>
                                     <v-col cols="2" md="auto">
@@ -96,7 +96,7 @@
                                             <template v-slot:activator="{on, attrs}">
                                                 <v-img src="@/assets/logo-soft/pencil_50px_50px.png" v-on="on" v-bind="attrs"/>
                                             </template>
-                                            <span>Dessin à la main</span>
+                                            <span>{{$t("PreHandDrawn")}}</span>
                                         </v-tooltip>
                                     </v-col>
                                     <v-col cols="2" md="auto" >
@@ -104,7 +104,7 @@
                                             <template v-slot:activator="{on, attrs}">
                                                 <v-img src="@/assets/logo-soft/build_50px_50px.png" v-on="on" v-bind="attrs"/>
                                             </template>
-                                            <span>Maquette</span>
+                                            <span>{{$t("PreModel")}}</span>
                                         </v-tooltip>
                                     </v-col>
                                 </v-row>
@@ -112,54 +112,66 @@
                         </v-card>
                         <v-timeline class="text-center">
                             <v-timeline-item class="mt-3" icon="mdi-school" color="teal darken-1" fill-dot>
-                                <span class="font-weight-bold" slot="opposite">2019-2022</span>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate01")}}</span>
                                 <v-card outlined >
                                     <v-card class='rounded-0' color="teal darken-2 !important" >
-                                    <h3>ESDAC (Clermont-Ferrand)</h3>
+                                    <h3>{{$t("PreTimelineTitre01")}}</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
-                                        <p>3éme année de Bachelor Design d'Espace</p>
+                                        <p>{{$t("PreTimelineDescr01")}}</p>
                                     </v-card-text>
                                 </v-card>
                             </v-timeline-item>
                              <v-timeline-item icon="mdi-account-tie" color="teal lighten-1" fill-dot>
-                                <span class="font-weight-bold" slot="opposite">Juillet-Août 2021</span>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate02")}}</span>
                                 <v-card outlined>
                                     <v-card class='rounded-0' color="teal darken-2 !important" >
-                                    <h3>Stage cabinet d'architecte (Vichy)</h3>
+                                    <h3>{{$t("PreTimelineTitre02")}}</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
-                                        <p>Agence DOUX Architecte<br />Participation aux projets<br />Dessin et réalisation de plan 2D et rendu 3D</p>
+                                        <p>
+                                            {{$t("PreTimelineDescr02")}}<br />
+                                            {{$t("PreTimelineDescr02_1")}}<br />
+                                            {{$t("PreTimelineDescr02_2")}}
+                                        </p>
                                     </v-card-text>
                                 </v-card>
                             </v-timeline-item>
                             <v-timeline-item icon="mdi-account-tie" color="teal lighten-1" fill-dot>
-                                <span class="font-weight-bold" slot="opposite">Mars 2020</span>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate03")}}</span>
                                 <v-card outlined>
                                     <v-card class='rounded-0' color="teal darken-2 !important" >
-                                    <h3>Stage cabinet d'architecte (Thuret)</h3>
+                                    <h3>{{$t("PreTimelineTitre03")}}</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
-                                        <p>Atelier Richard DUMAS (Thuret)<br />Etude et conception
-                                        d'aménagement intérieur.<br />Dessin et réalisation de
-                                        mobiliers.</p>
+                                        <p>
+                                            {{$t("PreTimelineDescr03")}}<br />
+                                            {{$t("PreTimelineDescr03_1")}}<br />
+                                            {{$t("PreTimelineDescr03_2")}}
+                                        </p>
                                     </v-card-text>
                                 </v-card>
                             </v-timeline-item>
                             <v-timeline-item icon="mdi-briefcase-variant" color="teal lighten-2" fill-dot>
-                                <span class="font-weight-bold" slot="opposite">2016-2018</span>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate04")}}</span>
                                 <v-card outlined>
                                     <v-card class='rounded-0' color="teal darken-2 !important" >
-                                    <h3>Professionnelles</h3>
+                                    <h3>{{$t("PreTimelineTitre04")}}</h3>
                                     </v-card>
                                     <v-card-text class="white text--primary">
-                                        <p>Contrat 9 mois Laboratoire GEN-BIO (Clermont-ferrand)
-                                        <br>Contrat 2 ans EHPAD (Aigueperse)</p>
+                                        <p>
+                                            {{$t("PreTimelineDescr04")}}<br>
+                                            {{$t("PreTimelineDescr04_1")}}
+                                        </p>
                                     </v-card-text>
                                 </v-card>
                             </v-timeline-item>
-                               <v-btn elevation="5" rounded color="teal lighten-2" class="ma-0" outlined large target="_blank" :href="require('@/assets/cv/cvaout2021.pdf')"><span class="font-weight-bold">Download CV</span></v-btn>
-                        </v-timeline>
+
+                            <v-col cols="12">
+                                <span class="font-weight-bold">{{$t("downloadcv")}}</span>
+                            </v-col>
+                                <v-btn icon="" elevation="5" rounded class="ma-0" target="_blank" :href="require('@/assets/cv/cvaout2021.pdf')"><v-timeline-item class="mt-5" icon="mdi-cloud-download-outline" color="teal lighten-2" fill-dot></v-timeline-item></v-btn>
+                            </v-timeline>
                         </v-card>
                     </v-container>
                 </div>

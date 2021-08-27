@@ -7,6 +7,7 @@
           </v-img>
           <v-fade-transition >
             <v-overlay v-if="hover" opacity="0.9" absolute color='rgba(109,91,58,1'>
+              <v-card-subtitle class="text-h6 pl-4 pt-4" style="color :#FFFFFF">{{$props.project.name}}</v-card-subtitle>
               <v-card-title min-height="70">
                 <v-row>
                   <v-col v-for="(item, i) in $props.project.softwares" :key="i">
@@ -14,7 +15,6 @@
                   </v-col>
                 </v-row>
               </v-card-title>
-              <v-card-subtitle class="text-h6 pl-4 pt-4" style="color :#FFFFFF">LOGO Logiciels et descriptif rapide</v-card-subtitle>
             </v-overlay>
           </v-fade-transition>
         </v-card>
@@ -62,9 +62,6 @@
                       </v-col>
                       <v-col cols="12" v-for="(item, i) in $props.project.v_sheet.src1" :key="i">
                         <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${item}`)"  />
-                      </v-col>
-                      <v-col>
-                        <v-card-subtitle flat class="flat text-h6 mt-15" style="color :#FFFFFF">LOGO Logiciels et descriptif rapide</v-card-subtitle>
                       </v-col>
                     </v-row>
                   <!-- directive -->
