@@ -60,6 +60,11 @@
                           </v-card-text>
                         <v-divider width="800px" class="mb-8 mt-1" color="#cf9b58"/>
                       </v-col>
+                      <v-col cols="12" v-for="(srcv, i) in $props.project.v_sheet.srcv" :key="i">
+                            <video width="70%" max-height="458" preload="auto" muted playsinline autoplay loop id="headerVideo">
+                              <source :src="require(`@/assets/${srcv}`)" type='video/mp4'/>
+                            </video>
+                      </v-col>
                       <v-col cols="12" v-for="(item, i) in $props.project.v_sheet.src1" :key="i">
                         <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${item}`)"  />
                       </v-col>
