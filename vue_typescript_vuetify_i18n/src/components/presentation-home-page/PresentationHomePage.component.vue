@@ -1,6 +1,6 @@
 <template >
     <div>
-        <v-card flat color="transparent" align="center" justify="center" class="mt-5 mb-5">
+        <v-card flat color="transparent" align="center" justify="center" class="mt-5 mb-14">
             <v-row align="center" justify="center">
                 <v-col class="mt-4 mb-3" cols="12" lg="8">
                     <pf-TextAnim />

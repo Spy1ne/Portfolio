@@ -13,6 +13,7 @@ import CardsProjectsSlide from '@/components/cards-projects/CardsProjectsSlide.c
 
 import HomeCover from '@/components/home-cover/HomeCover.component.vue'
 import PresentationHomePage from '@/components/presentation-home-page/PresentationHomePage.component.vue'
+import Contacts from '@/components/contacts/contacts.component.vue'
 
 /* Import Projet Sheet
 import Project100 from '@/components/projects-all-details/Project100.component.vue'
@@ -37,6 +38,7 @@ Vue.component('pf-CardsProjectsSlide', CardsProjectsSlide)
 
 Vue.component('pf-HomeCover', HomeCover)
 Vue.component('pf-PresentationHomePage', PresentationHomePage)
+Vue.component('pf-Contacts', Contacts)
 
 /* Component Projet Sheet
 Vue.component('pf-Project100', Project100)
