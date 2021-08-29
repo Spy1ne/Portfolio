@@ -1,5 +1,6 @@
 <template>
-  <v-app-bar flex app dense color='rgb(38, 50, 56, 0.6)' >
+  <!--
+    <v-app-bar flex app dense color='rgb(38, 50, 56, 0.6)' >
       <v-toolbar-title> <a @click="scrollTo('#home')" style="color:white !important">{{$store.state.name}}</a> </v-toolbar-title>
       <v-spacer></v-spacer>
         <h4 class="mr-4">|</h4>
@@ -10,7 +11,16 @@
         <a class="mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
         <h4 class="mr-4">|</h4>
       <pf-locale/>
-  </v-app-bar>
+  </v-app-bar> -->
+<div float class="header">
+        <a @click="scrollTo('#home')" style="color:white !important" ><h2>{{$store.state.name}}</h2></a>
+        <div class="header-right mt-1">
+          <a style="color:white !important" @click="scrollTo('#present')"><h3>{{$t('HeaderPresentation')}}</h3></a>
+          <a style="color:white !important" @click="scrollTo('#contacts')"><h3>{{$t('HeaderContact')}}</h3></a>
+          <a color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
+          <a><pf-locale class=""/></a>
+      </div>
+</div>
 </template>
 <script>
 import Vue from 'vue'
@@ -24,3 +34,55 @@ export default Vue.extend({
   }
 })
 </script>
+<style>
+.header {
+  overflow: hidden;
+  background-color: rgba(38, 50, 56, 0.6);
+  z-index: 2;
+}
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 700px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+</style>

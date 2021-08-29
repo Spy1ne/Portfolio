@@ -4,7 +4,7 @@
             <v-row align="center" justify="center">
                 <v-col class="mt-4 mb-3" cols="12" lg="8">
                     <pf-TextAnim />
-                    <p align="left">
+                    <p align="center">
                     <br />{{ $t("PresentationHomePage.Description.paragraph1") }}
                     <br /><br />{{ $t("PresentationHomePage.Description.paragraph2") }}
                     </p>
@@ -170,7 +170,7 @@
                             <v-col cols="12">
                                 <span class="font-weight-bold">{{$t("downloadcv")}}</span>
                             </v-col>
-                                <v-btn icon="" elevation="5" rounded class="ma-0" target="_blank" :href="require('@/assets/cv/cvaout2021.pdf')"><v-timeline-item class="mt-5" icon="mdi-cloud-download-outline" color="teal lighten-2" fill-dot></v-timeline-item></v-btn>
+                                <v-btn icon="" elevation="5" rounded class="ma-0" target="_blank" :href="require('@/assets/cv/MAZAL_Mathieu_2021.pdf')"><v-timeline-item class="mt-5" icon="mdi-cloud-download-outline" color="teal lighten-2" fill-dot></v-timeline-item></v-btn>
                             </v-timeline>
                         </v-card>
                     </v-container>

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid pa-0>
+  <v-container class="mt-n16" fluid pa-0>
     <video width="100%" disablePictureInPicture preload="auto" muted playsinline autoplay loop id="headerVideo">
       <source src='@/assets/carousel/carousel.mp4' type='video/mp4'/>
     </video>

@@ -16,7 +16,7 @@
                     <a style="text-decoration: none;" target="_blank" href="https://www.linkedin.com/in/mathieu-mazal-51b130124/">
                         <v-card-text align="center !important" class="hvr-logo">
                             <v-img align="center !important" width="220px" src="@/assets/logo_contacts/Linkb.png" ></v-img>
-                            <p class="font-weight-black v-toolbar__title title-contact white--text pl-0">Linkedin</p>
+                            <h3 class="v-toolbar__title title-contact white--text pl-0">Linkedin</h3>
                         </v-card-text>
                     </a>
                 </v-col>
@@ -24,7 +24,7 @@
                     <a style="text-decoration: none;" target="_blank" href="https://www.instagram.com/mathieumzl/">
                         <v-card-text align="center !important" class="hvr-logo">
                             <v-img align="center !important" width="220px" src="@/assets/logo_contacts/Instab.png" ></v-img>
-                            <h6 class="v-toolbar__title title-contact white--text pl-0">Instagram</h6>
+                            <h3 class="v-toolbar__title title-contact white--text pl-0">Instagram</h3>
                         </v-card-text>
                     </a>
                 </v-col>
@@ -32,7 +32,7 @@
                     <a style="text-decoration: none;" target="_blank" href="https://www.artstation.com/mathieu_mazal">
                         <v-card-text align="center !important" class="hvr-logo">
                             <v-img align="center !important" width="220px" src="@/assets/logo_contacts/artstationb.png" ></v-img>
-                            <h6 class="v-toolbar__title title-contact white--text pl-0">Artstation</h6>
+                            <h3 class="v-toolbar__title title-contact white--text pl-0">Artstation</h3>
                         </v-card-text>
                     </a>
                 </v-col>

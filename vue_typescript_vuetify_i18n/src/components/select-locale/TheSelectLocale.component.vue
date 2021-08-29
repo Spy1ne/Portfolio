@@ -1,5 +1,5 @@
-<template>
-  <div class="text-center">
+<template >
+  <div >
     <v-menu open-on-hover bottom offset-y>
       <template v-slot:activator="{ on, attrs }">
         <v-btn color='transparent' v-bind="attrs" v-on="on"><country-flag class='mr-1' :country='$store.state.locale'/>{{$store.state.locale}}</v-btn>
