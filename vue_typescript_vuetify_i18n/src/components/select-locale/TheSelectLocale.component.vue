@@ -4,11 +4,11 @@
       <template v-slot:activator="{ on, attrs }">
         <v-btn color='transparent' v-bind="attrs" v-on="on"><country-flag class='mr-1' :country='$store.state.locale'/>{{$store.state.locale}}</v-btn>
       </template>
-      <v-card class="mt-3" max-width="400" color="transparent">
+      <!--<v-card class="mt-3" max-width="400" color="transparent">
         <v-list-item-group v-for="locale in locales" :key="locale.code">
           <v-btn color="transparent" @click="switchLanguage(locale.code)"><country-flag class='mr-1' :country='locale.code'/>{{locale.code}}</v-btn>
         </v-list-item-group>
-      </v-card>
+      </v-card>-->
     </v-menu>
   </div>
 </template>

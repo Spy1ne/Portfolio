@@ -2,10 +2,10 @@
     <v-container>
         <v-card-title class="justify-center mb-7 mt-4"><h1 class="gradient-text">{{$t('TitleAllProject')}}</h1></v-card-title>
         <v-row class="mb-6 justify-center">
-            <v-chip class="ma-2" outlined @click="filterTag =''">{{$t('FilterAll')}}</v-chip>
+            <!--<v-chip class="ma-2" outlined @click="filterTag =''">{{$t('FilterAll')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='aa'">{{$t('FilterStudent')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='test'">{{$t('FilterPersonal')}}</v-chip>
-            <v-chip class="ma-2" outlined @click="filterTag ='test'">{{$t('FilterIProfessional')}}</v-chip>
+            <v-chip class="ma-2" outlined @click="filterTag ='test'">{{$t('FilterIProfessional')}}</v-chip>-->
         </v-row>
         <v-row class="justify-center">
             <v-col cols="12" sm="6" :md="mdt" v-for="(item, i) in projects" v-bind:key="i">

@@ -23,7 +23,7 @@
                     <v-divider color="#008080"/>
                     <v-divider color="#008080"/>
                     <v-container fluid class="sheet_item">
-                    <v-card min-width="400px" max-width="50vw" flat color="transparent">
+                    <v-card class="mobile-card" flat color="transparent">
                         <v-btn class="mt-5 mb-6" outlined color="white" @click="sheet = !sheet">
                             {{$t("close")}}
                         </v-btn>
@@ -203,6 +203,7 @@ export default Vue.extend({
 <style>
 .sheet_container{
 position:relative;
+max-width: 100vw !important;
 border-right: 1px #f8f7f3 solid;
 /* background-image:url(images/bubble.png); */
 /* background-color: black; */
@@ -219,5 +220,24 @@ position:relative;
 }
 .theme--dark.v-sheet--outlined {
     border: thin solid #008080 !important
+}
+.v-card .v-card--flat .v-sheet .theme--dark {
+    max-width: 100vw !important;
+}
+element.style {
+    max-width: 100vw !important;
+}
+.mobile-card {
+    max-width:50vw;
+}
+@media (max-width: 800px) {
+  .mobile-card {
+    max-width:70vw;
+  }
+}
+@media (max-width: 500px) {
+  .mobile-card {
+    max-width:100vw;
+  }
 }
 </style>
