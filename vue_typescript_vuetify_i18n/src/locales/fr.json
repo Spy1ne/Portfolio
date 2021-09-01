@@ -202,7 +202,7 @@
         { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
         { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
-      "tag" : "Personal",
+      "tag" : "Student",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersSituation.png",
         "description": [
