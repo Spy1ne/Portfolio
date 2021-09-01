@@ -41,11 +41,66 @@
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
   "Projects": {
+
+    "Project97": {
+      "name":"Pool House Serbannes",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/ProjetSerbannes.png",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "aa",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetSerbannes/Serbannes01.png",
+        "description": [
+          "Le but était de créer deux espaces bien définis, une chambre et un grand espace de travail. La pièce étant sous rampants j'ai essayé d'optimiser l'espace tout en jouant avec les poutres pour garder le charme de la pièce." 
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetSerbannes/Serbannes02.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes03.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes04.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes05.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes06.png"
+        ]
+      }
+    },
+
+    "Project98": {
+      "name":"Pool House Bellerive-sur-Allier",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/ProjetPoolhouseBelleriveSurAllier.png",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "aa",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier01.png",
+        "description": [
+          "Le but était de créer deux espaces bien définis, une chambre et un grand espace de travail. La pièce étant sous rampants j'ai essayé d'optimiser l'espace tout en jouant avec les poutres pour garder le charme de la pièce." 
+        ],
+        "srcurl": [
+          "/embed/e1SaNQLOquY"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier02.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier03.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier04.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier05.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier06.png"
+        ]
+      }
+    },
+
     "Project99": {
       "name":"La Chambre",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetlachambre.png",
       "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
         { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
         { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
       ],
