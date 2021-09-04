@@ -22,32 +22,40 @@
       </div>
 </div>-->
   <div>
-    <v-app-bar app color='rgb(38, 50, 56, 0.6)'>
+    <v-app-bar color='rgb(38, 50, 56, 0.6)' app >
       <v-app-bar-nav-icon class="nav_item" @click="drawer = true"></v-app-bar-nav-icon>
-
-      <v-toolbar-title class="title_site"> <a  @click="scrollTo('#home')" style="color:white !important; ">{{$store.state.name}}</a> </v-toolbar-title>
+      <v-toolbar-title class="">
+        <a  @click="scrollTo('#home')" style="color:white !important; " >{{$store.state.name}}</a>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
+      <h4 class="nav_menu mr-4">|</h4>
+      <a class="nav_menu mr-4" style="color:white !important" @click="scrollTo('#present')"><h3>{{$t('HeaderPresentation')}}</h3></a>
+      <h4 class="nav_menu mr-4">|</h4>
+      <a class="nav_menu mr-4" style="color:white !important" @click="scrollTo('#contacts')"><h3>{{$t('HeaderContact')}}</h3></a>
+      <h4 class="nav_menu mr-4">|</h4>
+      <a class="nav_menu mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
+      <h4 class="nav_menu mr-4">|</h4>
       <pf-locale/>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" temporary app color='rgb(38, 50, 56, 0.8)' class="nav_item">
       <v-list class="mt-10" nav dense>
-        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
-          <v-list-item>
+        <v-list-item-group active-class="deep-purple--text text--accent-4">
+          <v-list-item @click="drawer = false">
             <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
+              <v-icon>mdi-account-tie-voice</v-icon>
             </v-list-item-icon>
             <a class="mr-4" style="color:white !important" @click="scrollTo('#present')"><h4>{{$t('HeaderPresentation')}}</h4></a>
           </v-list-item>
-          <v-list-item>
+          <v-list-item @click="drawer = false">
             <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
+              <v-icon>mdi-fountain-pen-tip</v-icon>
             </v-list-item-icon>
             <a class="mr-4" style="color:white !important" @click="scrollTo('#contacts')"><h4>{{$t('HeaderContact')}}</h4></a>
           </v-list-item>
-          <v-list-item>
+          <v-list-item @click="drawer = false">
             <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
+              <v-icon>mdi-presentation</v-icon>
             </v-list-item-icon>
             <a class="mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h4>{{$t('HeaderProjets')}}</h4></a>
           </v-list-item>
@@ -121,11 +129,18 @@ export default Vue.extend({
     float: none;
   }
 }
-@media only screen and (min-width: 700px) { .nav_item {
-display: none !important;
-z-index: 0 !important;
-} }
-@media only screen and (max-width: 700px) { .nav_item .title_site{
-z-index: 7 !important;
-} }
+@media only screen and (min-width: 700px) {
+  .nav_item {
+    display: none !important;
+    z-index: 0 !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .nav_item {
+    z-index: 7 !important;
+  }
+  .nav_menu {
+    display: none !important;
+  }
+}
 </style>

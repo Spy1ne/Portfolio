@@ -1,88 +1,270 @@
 {
+  "HeaderPresentation": "Présentation",
+  "HeaderContact": "Contact",
+  "HeaderProjets" :"Projets",
+  "downloadcv": "Télécharger le CV",
   "message": "bonjoour i18n !!",
   "TitleAllProject":"Projets",
-  "return": "Return",
+  "return": "RETOUR",
+  "close": "Quitter",
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
     "school":"Etudiant troisième années Bachelor ESDAC",
     "Description": {
-      "paragraph1":"Cette année j'ai eu l'opportunité de travailler sur différents types de projet comme la réhabilitation de musée symbolisant les œuvres présentes, une habitation dédiée aux personnes âgées, une habitation dans un espace réduit et son extérieur, un aménagement d'un espace symbolisant une marque et d’autres projets toujours plus variés.",
-      "paragraph2":"La conception de maquette et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume, c’est alors que cette année j’ai décidé de m’intéresser aux logiciels 3D, c'est pour cela que l'architecture c'est présenté comme étant une vocation pour moi.",
-      "paragraph3":"J'aime crée un espace qui réponds au besoin des clients, c'est ainsi que j'aimerai pouvoir travailler avec des particuliers et aménager un espace fonctionnel et parfaitement intégrés à un lieu de vie."
+      "paragraph1":"Durant ma formation et mes stages j’ai eu l’opportunité de travailler sur différents types de projet comme la construction de Poolhouse, l’aménagement d’une colocation, d’espace privé notamment une salle à manger et une salle de bain.",
+      "paragraph2":"La conception de projet et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume par la réalisation de maquettes et rendu 3D. "
     },
     "button":"Curriculum Vitae"
   },
+  "PreSkills":"Competences",
+  "PreHandDrawn":"Dessin à la main",
+  "PreModel":"Maquette",
+  "PreTimelineDate01": "2019-2022",
+  "PreTimelineTitre01": "ESDAC (Clermont-Ferrand)",
+  "PreTimelineDescr01": "3éme année de Bachelor Design d'Espace",
+  "PreTimelineDate02": "Juillet-Août 2021",
+  "PreTimelineTitre02": "Stage cabinet d'architecte (Vichy)",
+  "PreTimelineDescr02": "Agence DOUX Architecte",
+  "PreTimelineDescr02_1": "Participation aux projets",
+  "PreTimelineDescr02_2": "Dessin et réalisation de plan 2D et rendu 3D",
+  "PreTimelineDate03": "Mars 2020",
+  "PreTimelineTitre03": "Stage cabinet d'architecte (Thuret)",
+  "PreTimelineDescr03": "Atelier Richard DUMAS (Thuret)",
+  "PreTimelineDescr03_1":"Etude et conception d'aménagement intérieur.",
+  "PreTimelineDescr03_2":"Dessin et réalisation de mobiliers.",
+  "PreTimelineDate04": "2016-2018",
+  "PreTimelineTitre04": "Professionnelles",
+  "PreTimelineDescr04": "Contrat 9 mois Laboratoire GEN-BIO (Clermont-ferrand)",
+  "PreTimelineDescr04_1": "Contrat 2 ans EHPAD (Aigueperse)",
+  "FilterAll": "Tous",
+  "FilterStudent": "Etudiant",
+  "FilterPersonal": "Personnel",
+  "FilterIProfessional": "Professionnel",
   "Projects": {
-    "Project1": {
-      "name":"Salle à manger",
-      "description": "description",
-      "thumbnail_name": "ProjetPresentation/projetillu3dpres.png",
-      "tag" : "test",
-      "softwares": [
-        "logo-soft/vray_50px_50px.png",
-        "logo-soft/revit_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
-      ],
-      "sheet": "pf-Project1",
-      "details": "zgeg"
-    },
-    "Project2": {
-      "name":"Salle de bain",
+
+    "Project97": {
+      "name":"Pool House Serbannes",
       "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
-      "tag" : "test",
+      "thumbnail_name": "ProjetPresentation/ProjetSerbannes.png",
       "softwares": [
-        "logo-soft/archicad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
       ],
-      "sheet": "contenue2"
+      "tag" : "Professional",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetSerbannes/Serbannes01.png",
+        "description": [
+          "Ce projet a été fait pour une maison à Serbannes. L'objectif était de créer un Pool House qui suit le même cadrage que la maison a sur la nature pour ne pas perturber le champ de vision.",
+          "Ce Pool House offre différents points de vue sur la nature tout en se fondant avec son environnement",
+          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetSerbannes/Serbannes02.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes03.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes04.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes05.png",
+          "ProjetPresentation/ProjetSerbannes/Serbannes06.png"
+        ]
+      }
     },
-    "Project3": {
+
+    "Project98": {
+      "name":"Pool House Bellerive-sur-Allier",
+      "description": "Professional",
+      "thumbnail_name": "ProjetPresentation/ProjetPoolhouseBelleriveSurAllier.png",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Professional",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier01.png",
+        "description": [
+          "Ce projet est situé à Bellerive-sur-Allier . Le but était de créer un Pool House qui suit la continuité de l'architecture d'une maison contemporaine.",
+          "Il offre différents cadrages tout en s'intégrant à la nature qui l'entoure.",
+          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier02.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier03.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier04.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier05.png",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier06.png"
+        ]
+      }
+    },
+
+    "Project99": {
+      "name":"La Chambre",
+      "description": "Professional",
+      "thumbnail_name": "ProjetPresentation/projetlachambre.png",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Personal",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetLaChambre/Lachambre01.png",
+        "description": [
+          "Le but était de créer deux espaces bien définis, une chambre et un grand espace de travail. La pièce étant sous rampants j'ai essayé d'optimiser l'espace tout en jouant avec les poutres pour garder le charme de la pièce." 
+        ],
+        "srcurl": [
+          "/embed/e1SaNQLOquY"
+        ],
+        "srcv" : [
+          "ProjetPresentation/ProjetLaChambre/Bedroom.mp4"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetLaChambre/Lachambre02.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre03.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre04.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre05.png",
+          "ProjetPresentation/ProjetLaChambre/Lachambre07.png"
+        ]
+      }
+    },
+    "Project100": {
       "name":"La Colocation",
-      "description": "desci",
+      "description": "Student",
       "thumbnail_name": "ProjetPresentation/projetcoloc.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
-      "tag" : "aa"
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetColocation/ProjetColocPlan.png",
+        "description": [
+          "La colocation regroupe trois amis qui ont acheté deux appartements situés au même étage d’un immeuble du type haussmannien.",
+          "L’objectif était de donner une nouvelle identité à ces appartements en les regroupant pour donner de plus grands espaces de vie et d’intimité. Il a fallu redéfinir les espaces en donnant de nouveaux cadrages sur la ville tout en faisant attention aux différents points lumineux.",
+          "L’appartement comprend trois chambres avec SDB, un couloir qui permet de faire la transition entre les différentes pièces de vie et un espace commun muni d’un salon, d’une salle à manger et d’une cuisine."
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetColocation/ProjetColocRecherche.png",
+          "ProjetPresentation/ProjetColocation/ProjetColocAmenagement.png"
+        ]
+      }
     },
-    "Project4": {
+    "Project120": {
+      "name":"Salle à manger",
+      "description": "description",
+      "thumbnail_name": "ProjetPresentation/ProjetIllu3D.png",
+      "softwares": [
+        { "logo": "logo-soft/vray_50px_50px.png", "tooltip": "V-Ray"},
+        { "logo": "logo-soft/revit_50px_50px.png", "tooltip": "Revit"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
+        
+      ],
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
+        "description": [
+          "Une habitation pour un couple où l’on devait retrouver une chambre, un coin salon, une salle à manger et une cuisine."
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetIllu3D/projetilluplan.png",
+          "ProjetPresentation/ProjetIllu3D/projetillucoupe.png"
+        ]
+      }
+    },
+    "Project130": {
+      "name":"Salle de bain",
+      "description": "Personal",
+      "thumbnail_name": "ProjetPresentation/projetsdb3d.png",
+      "tag" : "Personal",
+      "softwares": [
+        { "logo": "logo-soft/archicad_50px_50px.png", "tooltip": "Archicad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
+      ],
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetSDB/ProjetSDBrender.png",
+        "description": [
+          "Le projet de la salle de bain est un projet personnel où l’objectif était de la rénover en gardant le même espace."
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetSDB/ProjetSDBplan.png",
+          "ProjetPresentation/ProjetSDB/ProjetSDBdessin.png"
+        ]
+      }
+    },
+    "Project140": {
       "name":"Parcours Urbain",
-      "description": "desci",
+      "description": "Student",
       "thumbnail_name": "ProjetPresentation/projetparcourpres.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png",
-        "logo-soft/build_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
-      "tag" : "aa"
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersSituation.png",
+        "description": [
+          "Le projet est situé devant l’Opéra de Clermont-Ferrand proche de la place de Jaude et ce porte sur la modularité et le théâtre.",
+          "J’ai réfléchi à l’interaction entre les visiteurs et sur l’usage qu’ils pouvaient proposer. Il devait par la même occasion s’adapter au lieu tout en proposant une expérience aux visiteurs.",
+          "Mon projet est divisé en deux modules offrant une modularité ce qui permet d’avoir une interaction et de créer une scène et un décor qui change avec le temps. La lumière créant des silhouettes au sol permettant de rendre la scène dynamique."
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPlans.png",
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbCoupe.png",
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPersZoom.png",
+          "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbMaquettes.png"
+        ]
+      }
     },
-    "Project5": {
-      "name":"Project5",
-      "description": "desci",
+    "Project150": {
+      "name":"Biblio Truck",
+      "description": "Student",
       "thumbnail_name": "ProjetPresentation/projetbibliotpres.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/build_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
-      "tag" : "aa"
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.png",
+        "description": [
+          "Le projet se porte sur une bibliothèque mobile de 10 mètres de longueur et de 3 mètres de largeur."
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPlans.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckConcept.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckDetails.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPersInt.png"
+        ]
+      }
     },
-    "Project6": {
-      "name":"Project6",
-      "description": "desci",
+    "Project160": {
+      "name":"Pop-up Store",
+      "description": "Student",
       "thumbnail_name": "ProjetPresentation/projetpopupres.png",
       "softwares": [
-        "logo-soft/photoshop_50px_50px.png",
-        "logo-soft/autocad_50px_50px.png",
-        "logo-soft/pencil_50px_50px.png"
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
       ],
-      "tag" : "aa"
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreAxo.png",
+        "description": [
+          "En groupe nous devions aménager un pop-up store en reprenant le principe de la marque Dr. Martens.",
+          "Le concept était de montrer le dynamisme de cette marque tout en reprenant son histoire et son design."
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreShemas.png",
+          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStorePlan.png",
+          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreCoupe.png"
+        ]
+      }
     }
   }
 }
