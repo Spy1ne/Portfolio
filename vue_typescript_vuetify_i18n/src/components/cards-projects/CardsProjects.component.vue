@@ -6,7 +6,7 @@
             <span class="text-h5 pl-4 pt-4 d-inline-block"><p style="color :"> {{$props.project.name}} </p></span>
           </v-img>
           <v-fade-transition >
-            <v-overlay v-if="hover" opacity="0.9" absolute color='rgba(109,91,58,1'>
+            <v-overlay z-index="1" v-if="hover" opacity="0.9" absolute color='rgba(109,91,58,1'>
               <v-card-subtitle class="text-h6 pl-4 pt-4" style="color :#FFFFFF">{{$props.project.name}}</v-card-subtitle>
               <v-card-title min-height="70">
                 <v-row>

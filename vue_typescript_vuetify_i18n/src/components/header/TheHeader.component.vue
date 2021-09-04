@@ -12,7 +12,7 @@
         <h4 class="mr-4">|</h4>
       <pf-locale/>
   </v-app-bar> -->
-<div float class="header">
+<!--<div float class="header">
         <a @click="scrollTo('#home')" style="color:white !important" ><h2>{{$store.state.name}}</h2></a>
         <div class="header-right mt-1">
           <a style="color:white !important" @click="scrollTo('#present')"><h3>{{$t('HeaderPresentation')}}</h3></a>
@@ -20,12 +20,48 @@
           <a color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
           <a><pf-locale class=""/></a>
       </div>
-</div>
+</div>-->
+  <div>
+    <v-app-bar app color='rgb(38, 50, 56, 0.6)'>
+      <v-app-bar-nav-icon class="nav_item" @click="drawer = true"></v-app-bar-nav-icon>
+
+      <v-toolbar-title class="title_site"> <a  @click="scrollTo('#home')" style="color:white !important; ">{{$store.state.name}}</a> </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <pf-locale/>
+    </v-app-bar>
+
+    <v-navigation-drawer v-model="drawer" temporary app color='rgb(38, 50, 56, 0.8)' class="nav_item">
+      <v-list class="mt-10" nav dense>
+        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
+            <a class="mr-4" style="color:white !important" @click="scrollTo('#present')"><h4>{{$t('HeaderPresentation')}}</h4></a>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
+            <a class="mr-4" style="color:white !important" @click="scrollTo('#contacts')"><h4>{{$t('HeaderContact')}}</h4></a>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
+            <a class="mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h4>{{$t('HeaderProjets')}}</h4></a>
+          </v-list-item>
+
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+  </div>
 </template>
 <script>
 import Vue from 'vue'
 export default Vue.extend({
   data: () => ({
+    drawer: false
   }),
   methods: {
     scrollTo: function (targetId) {
@@ -85,4 +121,11 @@ export default Vue.extend({
     float: none;
   }
 }
+@media only screen and (min-width: 700px) { .nav_item {
+display: none !important;
+z-index: 0 !important;
+} }
+@media only screen and (max-width: 700px) { .nav_item .title_site{
+z-index: 7 !important;
+} }
 </style>
