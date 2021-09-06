@@ -40,34 +40,33 @@
   "FilterStudent": "Etudiant",
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
-  "Projects": {
-
-    "Project97": {
-      "name":"Pool House Serbannes",
-      "description": "desci",
-      "thumbnail_name": "ProjetPresentation/ProjetSerbannes.png",
-      "softwares": [
-        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
-        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
-        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+  "Project97": {
+    "name":"Pool House Serbannes",
+    "description": "desci",
+    "thumbnail_name": "ProjetPresentation/ProjetSerbannes.png",
+    "softwares": [
+      { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+      { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+      { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+    ],
+    "tag" : "Professional",
+    "v_sheet": {
+      "src": "ProjetPresentation/ProjetSerbannes/Serbannes01.png",
+      "description": [
+        "Ce projet a été fait pour une maison à Serbannes. L'objectif était de créer un Pool House qui suit le même cadrage que la maison a sur la nature pour ne pas perturber le champ de vision.",
+        "Ce Pool House offre différents points de vue sur la nature tout en se fondant avec son environnement",
+        "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY"
       ],
-      "tag" : "Professional",
-      "v_sheet": {
-        "src": "ProjetPresentation/ProjetSerbannes/Serbannes01.png",
-        "description": [
-          "Ce projet a été fait pour une maison à Serbannes. L'objectif était de créer un Pool House qui suit le même cadrage que la maison a sur la nature pour ne pas perturber le champ de vision.",
-          "Ce Pool House offre différents points de vue sur la nature tout en se fondant avec son environnement",
-          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY"
-        ],
-        "src1": [
-          "ProjetPresentation/ProjetSerbannes/Serbannes02.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes03.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes04.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes05.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes06.png"
-        ]
-      }
-    },
+      "src1": [
+        "ProjetPresentation/ProjetSerbannes/Serbannes02.png",
+        "ProjetPresentation/ProjetSerbannes/Serbannes03.png",
+        "ProjetPresentation/ProjetSerbannes/Serbannes04.png",
+        "ProjetPresentation/ProjetSerbannes/Serbannes05.png",
+        "ProjetPresentation/ProjetSerbannes/Serbannes06.png"
+      ]
+    }
+  },
+  "Projects": {
 
     "Project98": {
       "name":"Pool House Bellerive-sur-Allier",

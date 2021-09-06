@@ -7,13 +7,6 @@
       :wrapper="'h1'"
       :loop="Infinity"
     >{{ $t("PresentationHomePage.name") }}</typical>
-    <typical
-      class="typicalWrapper"
-      :steps="['Etudiant troisième années Bachelor ESDAC',5000,'',500,
-      ]"
-      :loop="Infinity"
-      :wrapper="'h3'"
-    ></typical>
   </div>
 </template>
 

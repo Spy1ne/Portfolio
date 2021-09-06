@@ -4,6 +4,7 @@
             <v-row align="center" justify="center">
                 <v-col class="mt-4 mb-3" cols="12" lg="8">
                     <pf-TextAnim />
+                    <h3 class="" >{{ $t("PresentationHomePage.school") }}</h3>
                     <p align="center">
                     <br />{{ $t("PresentationHomePage.Description.paragraph1") }}
                     <br /><br />{{ $t("PresentationHomePage.Description.paragraph2") }}

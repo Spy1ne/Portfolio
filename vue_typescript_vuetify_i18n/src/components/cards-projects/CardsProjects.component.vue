@@ -26,7 +26,7 @@
               <v-divider color="#cf9b58"/>
               <v-divider color="#cf9b58"/>
               <v-divider color="#cf9b58"/>
-              <v-container fluid class="sheet_item">
+              <v-container fluid class="sheet_item ">
                 <v-card class="center justify-center" flat color="transparent">
                   <h1 class="mt-6 mb-6 gradient-text">
                     {{$props.project.name}}
@@ -61,7 +61,7 @@
                         <v-divider width="800px" class="mb-8 mt-1" color="#cf9b58"/>
                       </v-col>
                       <v-col cols="12" v-for="(srcv, i) in $props.project.v_sheet.srcv" :key="i">
-                            <video width="70%" max-height="458" preload="auto" muted playsinline autoplay loop id="headerVideo">
+                            <video controls width="70%" max-height="458" preload="auto" playsinline loop id="headerVideo">
                               <source :src="require(`@/assets/${srcv}`)" type='video/mp4'/>
                             </video>
                       </v-col>
@@ -165,7 +165,6 @@ body > .expandable-image.expanded > .close-button {
 .close-button {
   position: fixed;
   top: 10px;
-  right: 0 !important;
   display: none;
   cursor: pointer;
 }
@@ -186,6 +185,10 @@ svg path {
   padding: 3px;
   opacity: 0;
   transition: 0.2s opacity;
+}
+.close-button svg{
+  width: 200px !important;
+  height: 200px !important;
 }
 
 .expandable-image:hover .expand-button {

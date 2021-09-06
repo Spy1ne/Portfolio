@@ -2,7 +2,7 @@
     <v-container>
         <v-card-title class="justify-center mb-7 mt-4"><h1 class="gradient-text">{{$t('TitleAllProject')}}</h1></v-card-title>
         <v-row class="mb-6 justify-center">
-            <v-chip class="ma-2" outlined @click="filterTag =''">{{$t('FilterAll')}}</v-chip>
+            <v-chip color="white" class="ma-2" outlined @click="filterTag =''">{{$t('FilterAll')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='Professional'">{{$t('FilterIProfessional')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='Student'">{{$t('FilterStudent')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='Personal'">{{$t('FilterPersonal')}}</v-chip>

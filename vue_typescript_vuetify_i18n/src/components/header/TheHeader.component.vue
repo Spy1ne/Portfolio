@@ -40,7 +40,7 @@
 
     <v-navigation-drawer v-model="drawer" temporary app color='rgb(38, 50, 56, 0.8)' class="nav_item">
       <v-list class="mt-10" nav dense>
-        <v-list-item-group active-class="deep-purple--text text--accent-4">
+        <v-list-item-group active-class="text--accent-4">
           <v-list-item @click="drawer = false">
             <v-list-item-icon>
               <v-icon>mdi-account-tie-voice</v-icon>
