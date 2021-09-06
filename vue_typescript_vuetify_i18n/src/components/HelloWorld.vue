@@ -2,7 +2,6 @@
   <div fluid pa-0>
     <v-container fluid pa-0>
       <pf-HomeCover id="home"/>
-      <v-divider class="mt-n1" color="white"/>
     </v-container>
     <v-container id="present">
       <pf-PresentationHomePage/>
