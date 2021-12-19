@@ -41,6 +41,33 @@
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
   "Projects": {
+    "Project95": {
+      "name":"Espace Bureau & Bibliothèque",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetbureaubiblior.jpg",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Professional",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetBureauBiblioR/BureauBiblioR01.jpg",
+        "description": [
+          "Ce projet a été de concevoir dans l'espace séjour une bibliothèque et un bureau permettant d'offrir une luminosité naturel et un cadrage sur l'extérieur.",
+          "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
+        ],
+        "srcv" : [
+          "ProjetPresentation/ProjetBureauBiblioR/ProjetBureauBiblioR.mp4"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetBureauBiblioR/BureauBiblioR02.jpg",
+          "ProjetPresentation/ProjetBureauBiblioR/BureauBiblioR03.jpg",
+          "ProjetPresentation/ProjetBureauBiblioR/BureauBiblioR04.jpg",
+          "ProjetPresentation/ProjetBureauBiblioR/BureauBiblioR05.jpg"
+        ]
+      }
+    },
     "Project97": {
       "name":"Pool House Serbannes",
       "description": "desci",
@@ -56,7 +83,7 @@
         "description": [
           "Ce projet a été fait pour une maison à Serbannes. L'objectif était de créer un Pool House qui suit le même cadrage que la maison a sur la nature pour ne pas perturber le champ de vision.",
           "Ce Pool House offre différents points de vue sur la nature tout en se fondant avec son environnement",
-          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY"
+          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY en 2021"
         ],
         "src1": [
           "ProjetPresentation/ProjetSerbannes/Serbannes02.png",
@@ -82,7 +109,10 @@
         "description": [
           "Ce projet est situé à Bellerive-sur-Allier. Le but était de créer un Pool House qui suit la continuité de l'architecture d'une maison contemporaine.",
           "Il offre différents cadrages tout en s'intégrant à la nature qui l'entoure.",
-          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY"
+          "Projet effectué lors de mon stage chez Florent DOUX Architecte - VICHY en 2021"
+        ],
+        "srcv" : [
+          "ProjetPresentation/ProjetPoolhouseBellerive/ProjetPoolhouseBellerive.mp4"
         ],
         "src1": [
           "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier02.png",
@@ -107,7 +137,8 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetLaChambre/Lachambre01.png",
         "description": [
-          "Le but était de créer deux espaces bien définis, une chambre et un grand espace de travail. La pièce étant sous rampants j'ai essayé d'optimiser l'espace tout en jouant avec les poutres pour garder le charme de la pièce." 
+          "Le but était de créer deux espaces bien définis, une chambre et un grand espace de travail. La pièce étant sous rampants j'ai essayé d'optimiser l'espace tout en jouant avec les poutres pour garder le charme de la pièce." ,
+          "Projet personnel effectué en 2021"
         ],
         "srcurl": [
           "/embed/e1SaNQLOquY"
@@ -139,7 +170,8 @@
         "description": [
           "La colocation regroupe trois amis qui ont acheté deux appartements situés au même étage d’un immeuble du type haussmannien.",
           "L’objectif était de donner une nouvelle identité à ces appartements en les regroupant pour donner de plus grands espaces de vie et d’intimité. Il a fallu redéfinir les espaces en donnant de nouveaux cadrages sur la ville tout en faisant attention aux différents points lumineux.",
-          "L’appartement comprend trois chambres avec SDB, un couloir qui permet de faire la transition entre les différentes pièces de vie et un espace commun muni d’un salon, d’une salle à manger et d’une cuisine."
+          "L’appartement comprend trois chambres avec SDB, un couloir qui permet de faire la transition entre les différentes pièces de vie et un espace commun muni d’un salon, d’une salle à manger et d’une cuisine.",
+          "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2021"
         ],
         "src1": [
           "ProjetPresentation/ProjetColocation/ProjetColocRecherche.png",
@@ -162,7 +194,8 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
         "description": [
-          "Une habitation pour un couple où l’on devait retrouver une chambre, un coin salon, une salle à manger et une cuisine."
+          "Une habitation pour un couple où l’on devait retrouver une chambre, un coin salon, une salle à manger et une cuisine.",
+          "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2021"
         ],
         "src1": [
           "ProjetPresentation/ProjetIllu3D/projetilluplan.png",
@@ -182,7 +215,8 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetSDB/ProjetSDBrender.png",
         "description": [
-          "Le projet de la salle de bain est un projet personnel où l’objectif était de la rénover en gardant le même espace."
+          "Le projet de la salle de bain est un projet personnel où l’objectif était de la rénover en gardant le même espace.",
+          "Projet personnel effectué en 2021"
         ],
         "src1": [
           "ProjetPresentation/ProjetSDB/ProjetSDBplan.png",
@@ -206,7 +240,8 @@
         "description": [
           "Le projet est situé devant l’Opéra de Clermont-Ferrand proche de la place de Jaude et ce porte sur la modularité et le théâtre.",
           "J’ai réfléchi à l’interaction entre les visiteurs et sur l’usage qu’ils pouvaient proposer. Il devait par la même occasion s’adapter au lieu tout en proposant une expérience aux visiteurs.",
-          "Mon projet est divisé en deux modules offrant une modularité ce qui permet d’avoir une interaction et de créer une scène et un décor qui change avec le temps. La lumière créant des silhouettes au sol permettant de rendre la scène dynamique."
+          "Mon projet est divisé en deux modules offrant une modularité ce qui permet d’avoir une interaction et de créer une scène et un décor qui change avec le temps. La lumière créant des silhouettes au sol permettant de rendre la scène dynamique.",
+          "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2021"
         ],
         "src1": [
           "ProjetPresentation/ProjetParcoursUrbain/ProjetParcoursUrbPlans.png",
@@ -230,7 +265,8 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.png",
         "description": [
-          "Le projet se porte sur une bibliothèque mobile de 10 mètres de longueur et de 3 mètres de largeur."
+          "Le projet se porte sur une bibliothèque mobile de 10 mètres de longueur et de 3 mètres de largeur.",
+          "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2020"
         ],
         "src1": [
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
@@ -255,7 +291,8 @@
         "src": "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreAxo.png",
         "description": [
           "En groupe nous devions aménager un pop-up store en reprenant le principe de la marque Dr. Martens.",
-          "Le concept était de montrer le dynamisme de cette marque tout en reprenant son histoire et son design."
+          "Le concept était de montrer le dynamisme de cette marque tout en reprenant son histoire et son design.",
+          "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2020"
         ],
         "src1": [
           "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreShemas.png",
