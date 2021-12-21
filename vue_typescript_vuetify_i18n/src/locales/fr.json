@@ -22,6 +22,10 @@
   "PreTimelineDate01": "2019-2022",
   "PreTimelineTitre01": "ESDAC (Clermont-Ferrand)",
   "PreTimelineDescr01": "3éme année de Bachelor Design d'Espace",
+  "PreTimelineDate05": "2021-2022",
+  "PreTimelineTitre05": "Alternance cabinet d'architecte (Vichy)",
+  "PreTimelineDescr05": "Agence DOUX Architecte",
+  "PreTimelineDescr05_1": "Participation aux projets",
   "PreTimelineDate02": "Juillet-Août 2021",
   "PreTimelineTitre02": "Stage cabinet d'architecte (Vichy)",
   "PreTimelineDescr02": "Agence DOUX Architecte",
@@ -41,6 +45,32 @@
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
   "Projects": {
+    "Project94": {
+      "name":"Amménagement extérieur Cloture",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Professional",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetClotureR/ProjetClotureR01.jpg",
+        "description": [
+          "Ce projet a été de concevoir une cloture.",
+          "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
+        ],
+        "srcv" : [
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR.mp4"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR02.jpg",
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR03.jpg",
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR04.jpg"
+        ]
+      }
+    },
     "Project95": {
       "name":"Espace Bureau & Bibliothèque",
       "description": "desci",
@@ -79,18 +109,18 @@
       ],
       "tag" : "Professional",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetSerbannes/Serbannes01.png",
+        "src": "ProjetPresentation/ProjetSerbannes/Serbannes01.jpg",
         "description": [
           "Ce projet a été fait pour une maison à Serbannes. L'objectif était de créer un Pool House qui suit le même cadrage que la maison a sur la nature pour ne pas perturber le champ de vision.",
           "Ce Pool House offre différents points de vue sur la nature tout en se fondant avec son environnement",
           "Projet effectué lors de mon stage chez DOUX Architecte - VICHY en 2021"
         ],
         "src1": [
-          "ProjetPresentation/ProjetSerbannes/Serbannes02.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes03.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes04.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes05.png",
-          "ProjetPresentation/ProjetSerbannes/Serbannes06.png"
+          "ProjetPresentation/ProjetSerbannes/Serbannes02.jpg",
+          "ProjetPresentation/ProjetSerbannes/Serbannes03.jpg",
+          "ProjetPresentation/ProjetSerbannes/Serbannes04.jpg",
+          "ProjetPresentation/ProjetSerbannes/Serbannes05.jpg",
+          "ProjetPresentation/ProjetSerbannes/Serbannes06.jpg"
         ]
       }
     },
@@ -105,7 +135,7 @@
       ],
       "tag" : "Professional",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier01.png",
+        "src": "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier01.jpg",
         "description": [
           "Ce projet est situé à Bellerive-sur-Allier. Le but était de créer un Pool House qui suit la continuité de l'architecture d'une maison contemporaine.",
           "Il offre différents cadrages tout en s'intégrant à la nature qui l'entoure.",
@@ -115,11 +145,11 @@
           "ProjetPresentation/ProjetPoolhouseBellerive/ProjetPoolhouseBellerive.mp4"
         ],
         "src1": [
-          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier02.png",
-          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier03.png",
-          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier04.png",
-          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier05.png",
-          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier06.png"
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier02.jpg",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier03.jpg",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier04.jpg",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier05.jpg",
+          "ProjetPresentation/ProjetPoolhouseBellerive/PoolhouseBelleriveSurAllier06.jpg"
         ]
       }
     },
@@ -135,7 +165,7 @@
       ],
       "tag" : "Personal",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetLaChambre/Lachambre01.png",
+        "src": "ProjetPresentation/ProjetLaChambre/Lachambre01.jpg",
         "description": [
           "Le but était de créer deux espaces bien définis, une chambre et un grand espace de travail. La pièce étant sous rampants j'ai essayé d'optimiser l'espace tout en jouant avec les poutres pour garder le charme de la pièce." ,
           "Projet personnel effectué en 2021"
@@ -147,11 +177,11 @@
           "ProjetPresentation/ProjetLaChambre/Bedroom.mp4"
         ],
         "src1": [
-          "ProjetPresentation/ProjetLaChambre/Lachambre02.png",
-          "ProjetPresentation/ProjetLaChambre/Lachambre03.png",
-          "ProjetPresentation/ProjetLaChambre/Lachambre04.png",
-          "ProjetPresentation/ProjetLaChambre/Lachambre05.png",
-          "ProjetPresentation/ProjetLaChambre/Lachambre07.png"
+          "ProjetPresentation/ProjetLaChambre/Lachambre02.jpg",
+          "ProjetPresentation/ProjetLaChambre/Lachambre03.jpg",
+          "ProjetPresentation/ProjetLaChambre/Lachambre04.jpg",
+          "ProjetPresentation/ProjetLaChambre/Lachambre05.jpg",
+          "ProjetPresentation/ProjetLaChambre/Lachambre06.jpg"
         ]
       }
     },
@@ -166,7 +196,7 @@
       ],
       "tag" : "Student",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetColocation/ProjetColocPlan.png",
+        "src": "ProjetPresentation/ProjetColocation/ProjetColocPlan.jpg",
         "description": [
           "La colocation regroupe trois amis qui ont acheté deux appartements situés au même étage d’un immeuble du type haussmannien.",
           "L’objectif était de donner une nouvelle identité à ces appartements en les regroupant pour donner de plus grands espaces de vie et d’intimité. Il a fallu redéfinir les espaces en donnant de nouveaux cadrages sur la ville tout en faisant attention aux différents points lumineux.",
@@ -192,14 +222,14 @@
       ],
       "tag" : "Student",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.png",
+        "src": "ProjetPresentation/ProjetIllu3D/ProjetIlluRender.jpg",
         "description": [
           "Une habitation pour un couple où l’on devait retrouver une chambre, un coin salon, une salle à manger et une cuisine.",
           "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2021"
         ],
         "src1": [
-          "ProjetPresentation/ProjetIllu3D/projetilluplan.png",
-          "ProjetPresentation/ProjetIllu3D/projetillucoupe.png"
+          "ProjetPresentation/ProjetIllu3D/projetilluplan.jpg",
+          "ProjetPresentation/ProjetIllu3D/projetillucoupe.jpg"
         ]
       }
     },
@@ -263,17 +293,17 @@
       ],
       "tag" : "Student",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.png",
+        "src": "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPers.jpg",
         "description": [
           "Le projet se porte sur une bibliothèque mobile de 10 mètres de longueur et de 3 mètres de largeur.",
           "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2020"
         ],
         "src1": [
-          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.png",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckRenduPlanche.jpg",
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPlans.png",
-          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckConcept.png",
-          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckDetails.png",
-          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPersInt.png"
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckConcept.jpg",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckDetails.jpg",
+          "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPersInt.jpg"
         ]
       }
     },

@@ -123,6 +123,20 @@
                                     </v-card-text>
                                 </v-card>
                             </v-timeline-item>
+                            <v-timeline-item class="mt-3" icon="mdi-briefcase-variant" color="teal darken-1" fill-dot>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate05")}}</span>
+                                <v-card outlined >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
+                                    <h3>{{$t("PreTimelineTitre05")}}</h3>
+                                    </v-card>
+                                    <v-card-text class="white text--primary">
+                                        <p>
+                                            {{$t("PreTimelineDescr05")}}<br />
+                                            {{$t("PreTimelineDescr05_1")}}
+                                        </p>
+                                    </v-card-text>
+                                </v-card>
+                            </v-timeline-item>
                              <v-timeline-item icon="mdi-account-tie" color="teal lighten-1" fill-dot>
                                 <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate02")}}</span>
                                 <v-card outlined>
