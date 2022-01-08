@@ -46,7 +46,7 @@
   "FilterIProfessional": "Professionnel",
   "Projects": {
     "Project94": {
-      "name":"Amménagement extérieur Cloture",
+      "name":"Aménagement extérieur & Cloture",
       "description": "desci",
       "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
       "softwares": [
@@ -58,7 +58,7 @@
       "v_sheet": {
         "src": "ProjetPresentation/ProjetClotureR/ProjetClotureR01.jpg",
         "description": [
-          "Ce projet a été de concevoir une cloture.",
+          "Ce projet a été de concevoir l'aménagement extérieur avec une clôture qui ne bloque pas le champ de vision.",
           "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
         ],
         "srcv" : [

@@ -2,14 +2,16 @@
     <v-container>
         <v-card-title class="justify-center mb-7 mt-4"><h1 class="gradient-text">{{$t('TitleAllProject')}}</h1></v-card-title>
         <v-row class="mb-6 justify-center">
-            <v-chip color="white" class="ma-2" outlined @click="filterTag =''">{{$t('FilterAll')}}</v-chip>
+          <v-chip-group mandatory active-class="gradient-text_menu">
+            <v-chip class="ma-2" outlined @click="filterTag =''">{{$t('FilterAll')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='Professional'">{{$t('FilterIProfessional')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='Student'">{{$t('FilterStudent')}}</v-chip>
             <v-chip class="ma-2" outlined @click="filterTag ='Personal'">{{$t('FilterPersonal')}}</v-chip>
+          </v-chip-group>
         </v-row>
         <v-row class="justify-center">
             <v-col cols="12" sm="6" :md="mdt" v-for="(item, i) in projects" v-bind:key="i">
-                <pf-CardsProjects :project="item"/>
+              <pf-CardsProjects :project="item"/>
             </v-col>
         </v-row>
         <div class="mb-15"/>
@@ -45,6 +47,18 @@ export default Vue.extend({
 })
 </script>
 <style>
+.gradient-text_menu {
+    border-color: rgb(255, 255, 255) !important;
+    color: #FFFFFF;
+  height: 40px;
+  background-color: #ffffff;
+  background-image: linear-gradient(360deg, #ffffff, #ffffff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 .gradient-text {
   font-family:'Consolas';
   height: 40px;
