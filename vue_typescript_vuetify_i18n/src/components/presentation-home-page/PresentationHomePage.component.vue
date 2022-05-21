@@ -5,9 +5,10 @@
                 <v-col class="mt-4 mb-3" cols="12" lg="8">
                     <pf-TextAnim />
                     <h3 class="" >{{ $t("PresentationHomePage.school") }}</h3>
+                    <h4 class="" >{{ $t("PresentationHomePage.alternance") }}</h4>
                     <p align="center">
-                    <br />{{ $t("PresentationHomePage.Description.paragraph1") }}
-                    <br /><br />{{ $t("PresentationHomePage.Description.paragraph2") }}
+                        <br />{{ $t("PresentationHomePage.Description.paragraph1") }}
+                        <br /><br />{{ $t("PresentationHomePage.Description.paragraph2") }}
                     </p>
                 </v-col>
             </v-row>

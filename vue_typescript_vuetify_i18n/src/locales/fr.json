@@ -10,6 +10,7 @@
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
     "school":"Etudiant troisième années Bachelor ESDAC",
+    "alternance":"Alternance a l'agence DOUX Architecte",
     "Description": {
       "paragraph1":"Durant ma formation et mes stages j’ai eu l’opportunité de travailler sur différents types de projet comme la construction de Poolhouse, l’aménagement d’une colocation, d’espace privé notamment une salle à manger et une salle de bain.",
       "paragraph2":"La conception de projet et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume par la réalisation de maquettes et rendu 3D. "
@@ -45,6 +46,57 @@
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
   "Projects": {
+    "Project92": {
+      "name":"Bivouac Cézallier",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Professional",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetClotureR/ProjetClotureR01.jpg",
+        "description": [
+          "Ce projet a été de concevoir l'aménagement extérieur avec une clôture qui ne bloque pas le champ de vision.",
+          "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
+        ],
+        "srcv" : [
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR.mp4"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR02.jpg",
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR03.jpg",
+          "ProjetPresentation/ProjetClotureR/ProjetClotureR04.jpg"
+        ]
+      }
+    },
+    "Project93": {
+      "name":"Restaurant thématique",
+      "description": "desci",
+      "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Professional",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetClotureR/ProjetClotureR01.jpg",
+        "description": [
+          "Ce projet a été de concevoir l'aménagement extérieur avec une clôture qui ne bloque pas le champ de vision.",
+          "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
+        ],
+        "srcv" : [
+          ""
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique02.jpg",
+          "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique03.jpg"
+        ]
+      }
+    },
     "Project94": {
       "name":"Aménagement extérieur & Cloture",
       "description": "desci",
