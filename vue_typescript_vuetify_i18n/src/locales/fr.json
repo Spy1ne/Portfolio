@@ -78,8 +78,7 @@
       "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
       "softwares": [
         { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
-        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
-        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"}
       ],
       "tag" : "Professional",
       "v_sheet": {
