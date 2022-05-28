@@ -1,5 +1,8 @@
 <template>
-  <hello-world />
+  <div>
+    <pf-header/>
+    <hello-world />
+  </div>
 </template>
 
 <script lang="ts">

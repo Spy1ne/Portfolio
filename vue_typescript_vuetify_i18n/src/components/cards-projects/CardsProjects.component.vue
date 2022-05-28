@@ -58,14 +58,17 @@
                               <p>{{ item }}</p>
                             </v-col>
                           </v-card-text>
-                        <v-divider width="800px" class="mb-8 mt-1" color="#cf9b58"/>
+                          <v-col cols="12" v-for="srcp in $props.project.v_sheet.srcp" :key="srcp">
+                            <v-btn class="amber--text text--lighten-3 font-weight-bold" target="_blank" :href="require(`@/assets/${$props.project.v_sheet.srcp}`)" >{{$t("downloadcdr")}}</v-btn>
+                          </v-col>
+                        <v-divider width="800px" class="mt-5 mb-8 mt-1" color="#cf9b58"/>
                       </v-col>
-                      <v-col cols="12" v-for="(srcv, i) in $props.project.v_sheet.srcv" :key="i">
+                      <v-col cols="12" v-for="srcv in $props.project.v_sheet.srcv" :key="srcv">
                             <video controls width="70%" max-height="458" preload="auto" playsinline loop id="headerVideo">
                               <source :src="require(`@/assets/${srcv}`)" type='video/mp4'/>
                             </video>
                       </v-col>
-                      <v-col cols="12" v-for="(item, i) in $props.project.v_sheet.src1" :key="i">
+                      <v-col cols="12" v-for="item in $props.project.v_sheet.src1" :key="item">
                         <expandable-image class="expandable-image image expanded" :src="require(`@/assets/${item}`)"  />
                       </v-col>
                     </v-row>

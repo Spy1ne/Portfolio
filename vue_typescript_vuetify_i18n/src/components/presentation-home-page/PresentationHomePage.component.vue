@@ -30,7 +30,8 @@
                             {{$t("close")}}
                         </v-btn>
                         <h1 class="font-weight-medium">{{ $t("PresentationHomePage.name") }}</h1>
-                        <h3 class="mb-7">{{ $t("PresentationHomePage.school") }}</h3>
+                        <h3 class="">{{ $t("PresentationHomePage.school") }}</h3>
+                        <h4 class="mb-7" >{{ $t("PresentationHomePage.alternance") }}</h4>
                         <v-card outlined color="">
                             <v-card class="mt-0 rounded-0" color="teal darken-2 !important">
                             <h3>{{$t("PreSkills")}}</h3>

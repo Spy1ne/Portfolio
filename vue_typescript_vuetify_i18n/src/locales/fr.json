@@ -3,6 +3,7 @@
   "HeaderContact": "Contact",
   "HeaderProjets" :"Projets",
   "downloadcv": "Télécharger le CV",
+  "downloadcdr": "Carnet de recherche",
   "message": "bonjoour i18n !!",
   "TitleAllProject":"Projets",
   "return": "RETOUR",
@@ -10,7 +11,7 @@
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
     "school":"Etudiant troisième années Bachelor ESDAC",
-    "alternance":"Alternance a l'agence DOUX Architecte",
+    "alternance":"Alternance à l'agence DOUX Architecte",
     "Description": {
       "paragraph1":"Durant ma formation et mes stages j’ai eu l’opportunité de travailler sur différents types de projet comme la construction de Poolhouse, l’aménagement d’une colocation, d’espace privé notamment une salle à manger et une salle de bain.",
       "paragraph2":"La conception de projet et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume par la réalisation de maquettes et rendu 3D. "
@@ -22,7 +23,7 @@
   "PreModel":"Maquette",
   "PreTimelineDate01": "2019-2022",
   "PreTimelineTitre01": "ESDAC (Clermont-Ferrand)",
-  "PreTimelineDescr01": "3éme année de Bachelor Design d'Espace",
+  "PreTimelineDescr01": "3ème année de Bachelor Design d'Espace",
   "PreTimelineDate05": "2021-2022",
   "PreTimelineTitre05": "Alternance cabinet d'architecte (Vichy)",
   "PreTimelineDescr05": "Agence DOUX Architecte",
@@ -46,51 +47,99 @@
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
   "Projects": {
-    "Project92": {
-      "name":"Bivouac Cézallier",
-      "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
+    "Project91": {
+      "name":"Ancien Stade Nautique - Bellerive-Sur-Allier",
+      "description": "Student",
+      "thumbnail_name": "ProjetPresentation/ProjetStadeNautiqueB.jpg",
       "softwares": [
         { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
         { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
         { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
       ],
-      "tag" : "Professional",
+      "tag" : "Student",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetClotureR/ProjetClotureR01.jpg",
+        "src": "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB01.jpg",
         "description": [
-          "Ce projet a été de concevoir l'aménagement extérieur avec une clôture qui ne bloque pas le champ de vision.",
-          "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
+          "Voici mon projet de fin d'études qui a conclu mon année de Bachelor. Ici j'ai voulu réhabiliter un ancien stade nautique qui se situe à Bellerive-sur-Allier proche de Vichy dans le département de l'Allier. Mon souhait était de garder le bâtiment d'origine et de changer complètement son usage.",
+          "Dans l'optique de suivre les différents projets de sport de la ville j'ai décidé d'en faire un musée des sports qui permet de faire découvrir aux grands publics les sport de la région. Par la même occasion il invite le visiteur à la découverte des différents athlètes de la région.",
+          "Pour plus de détails je vous invite à regarder mon carnet de recherche, ci-dessous.",
+          "Projet effectué lors de ma 3ème année d'études à l'ESDAC - Clermont-Ferrand en 2022"
         ],
-        "srcv" : [
-          "ProjetPresentation/ProjetClotureR/ProjetClotureR.mp4"
+        "srcp": [
+          "ProjetPresentation/ProjetStadeNautiqueB/Carnet_de_recherche_pfe_stade_nautique.pdf"
         ],
         "src1": [
-          "ProjetPresentation/ProjetClotureR/ProjetClotureR02.jpg",
-          "ProjetPresentation/ProjetClotureR/ProjetClotureR03.jpg",
-          "ProjetPresentation/ProjetClotureR/ProjetClotureR04.jpg"
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB02.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB03.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB04.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB05.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB06.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB07.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB08.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB09.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB10.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB11.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB12.jpg",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB13.png",
+          "ProjetPresentation/ProjetStadeNautiqueB/ProjetStadeNautiqueB14.jpg"
+        ]
+      }
+    },
+    "Project92": {
+      "name":"Bivouac Cézallier",
+      "description": "Student",
+      "thumbnail_name": "ProjetPresentation/ProjetBivouacCezallier.jpg",
+      "softwares": [
+        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier01.jpg",
+        "description": [
+          "Le Bivouac est un projet qui consiste à créer un espace de repos pour tous types de randonneurs. L'objectif était d'arrivée à créer une aire qui réponde aux usagers et à l'environnement tout en s'adaptant au terrain, aux chemins de randonnée en faisant vraiment partie du parcours du randonneur.",
+          "Pour moi ce qui était intéressant était l’adaptabilité du projet au site. D’avoir quelque chose de modulaire pour que les randonneurs puissent s'aventurer dans ce lieu. Début (espace modulaire) → Fin (espace convivial en cercle). Mon projet de bivouac comprend plusieurs espaces : rangements, sanitaire, modules et un foyer. Ce qui permet de partager des espaces communs et avoir son espace intime.",
+          "Projet effectué lors de ma 3ème année d'études à l'ESDAC - Clermont-Ferrand en 2021"
+        ],
+        "srcv" : [
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier.mp4"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier02.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier03.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier04.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier05.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier06.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier07.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier08.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier09.jpg",
+          "ProjetPresentation/ProjetBivouacCezallier/ProjetBivouacCezallier10.jpg"
         ]
       }
     },
     "Project93": {
       "name":"Restaurant thématique",
-      "description": "desci",
-      "thumbnail_name": "ProjetPresentation/projetcloturer.jpg",
+      "description": "Student",
+      "thumbnail_name": "ProjetPresentation/ProjetRestaurantThematique.jpg",
       "softwares": [
         { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
-        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"}
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
       ],
-      "tag" : "Professional",
+      "tag" : "Student",
       "v_sheet": {
-        "src": "ProjetPresentation/ProjetClotureR/ProjetClotureR01.jpg",
+        "src": "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique01.jpg",
         "description": [
-          "Ce projet a été de concevoir l'aménagement extérieur avec une clôture qui ne bloque pas le champ de vision.",
-          "Projet effectué lors de mon alternance chez DOUX Architecte - VICHY en 2021"
-        ],
-        "srcv" : [
-          "ProjetPresentation/ProjetClotureR/ProjetClotureR.mp4"
+          "Le restaurant est un projet qui doit être conçu dans un ancien bâtiment qui a pour objectif de garder l'existant et d'adapter son projet à celui-ci. L'objectif est de s’adapter à l’espace intérieur en limitant le plus possible les endroits morts (sans aucune activité).",
+          "Je voulais que les poteaux fassent vraiment partie de la structure et ne plus avoir le côté hangar (entrepôt). Mon but est de réagencer l'espace en jouant sur différents volumes, cadrages, lumières et posture à l'intérieur du restaurant.",
+          "Projet effectué lors de ma 3ème année d'études à l'ESDAC - Clermont-Ferrand en 2021"
         ],
         "src1": [
+          "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique06.jpg",
           "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique02.jpg",
           "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique03.jpg",
           "ProjetPresentation/ProjetRestaurantThematique/ProjetRestaurantThematique04.jpg",
