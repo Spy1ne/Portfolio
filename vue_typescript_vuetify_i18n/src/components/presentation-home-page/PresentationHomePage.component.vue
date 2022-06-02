@@ -187,7 +187,7 @@
                             <v-col cols="12">
                                 <span class="font-weight-bold">{{$t("downloadcv")}}</span>
                             </v-col>
-                                <v-btn icon="" elevation="5" rounded class="ma-0" target="_blank" :href="require('@/assets/cv/MAZAL_Mathieu_2021.pdf')"><v-timeline-item class="mt-5" icon="mdi-cloud-download-outline" color="teal lighten-2" fill-dot></v-timeline-item></v-btn>
+                                <v-btn icon="" elevation="5" rounded class="ma-0" target="_blank" :href="require('@/assets/cv/MAZAL_Mathieu.pdf')"><v-timeline-item class="mt-5" icon="mdi-cloud-download-outline" color="teal lighten-2" fill-dot></v-timeline-item></v-btn>
                             </v-timeline>
                         </v-card>
                     </v-container>
