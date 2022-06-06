@@ -6,6 +6,8 @@ import SelectLocale from '@/components/select-locale/TheSelectLocale.component.v
 import FooterComponent from '@/components/footers/basdepage.component.vue'
 import ProjectBottom from '@/components/ProjectBottomSheet/ProjectBottom.component.vue'
 
+import HeaderComponentPro from '@/components/header/TheHeaderPro.component.vue'
+
 /* Import Projet */
 import CardsProjects from '@/components/cards-projects/CardsProjects.component.vue'
 import CardsProjectsPresentation from '@/components/cards-projects/CardsProjectsPresentation.component.vue'
@@ -14,6 +16,12 @@ import CardsProjectsSlide from '@/components/cards-projects/CardsProjectsSlide.c
 import HomeCover from '@/components/home-cover/HomeCover.component.vue'
 import PresentationHomePage from '@/components/presentation-home-page/PresentationHomePage.component.vue'
 import Contacts from '@/components/contacts/contacts.component.vue'
+
+/* Import Projet Page pro */
+import PresentationHomePagePro from '@/components/presentation-home-page/PresentationHomePagePro.component.vue'
+import HomeCoverPro from '@/components/home-cover/HomeCoverPro.component.vue'
+import ContactsPro from '@/components/contacts/contactspro.component.vue'
+import ContactsProForm from '@/components/contacts/contactsproform.component.vue'
 
 /* Import Projet Sheet
 import Project100 from '@/components/projects-all-details/Project100.component.vue'
@@ -25,11 +33,14 @@ import Project160 from '@/components/projects-all-details/Project160.component.v
 
 /* Import Text Anim */
 import textAnimp from '@/components/textAnimp/TextAnim.component.vue'
+import textAnimpPro from '@/components/textAnimp/TextAnimPro.component.vue'
 
 Vue.component('pf-header', HeaderComponent)
 Vue.component('pf-locale', SelectLocale)
 Vue.component('pf-Footer', FooterComponent)
 Vue.component('pf-Project', ProjectBottom)
+
+Vue.component('pf-header-pro', HeaderComponentPro)
 
 /* Component Projet Sheet */
 Vue.component('pf-CardsProjects', CardsProjects)
@@ -39,6 +50,12 @@ Vue.component('pf-CardsProjectsSlide', CardsProjectsSlide)
 Vue.component('pf-HomeCover', HomeCover)
 Vue.component('pf-PresentationHomePage', PresentationHomePage)
 Vue.component('pf-Contacts', Contacts)
+
+/* Component Projet Page pro */
+Vue.component('pf-PresentationHomePagePro', PresentationHomePagePro)
+Vue.component('pf-HomeCoverPro', HomeCoverPro)
+Vue.component('pf-ContactsPro', ContactsPro)
+Vue.component('pf-ContactsProForm', ContactsProForm)
 
 /* Component Projet Sheet
 Vue.component('pf-Project100', Project100)
@@ -50,3 +67,4 @@ Vue.component('pf-Project160', Project160) */
 
 /* Component Text Anim */
 Vue.component('pf-TextAnim', textAnimp)
+Vue.component('pf-TextAnimPro', textAnimpPro)

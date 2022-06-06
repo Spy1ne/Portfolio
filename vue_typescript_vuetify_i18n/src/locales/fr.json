@@ -2,6 +2,9 @@
   "HeaderPresentation": "Présentation",
   "HeaderContact": "Contact",
   "HeaderProjets" :"Projets",
+  "HeaderProPresentation": "Présentation",
+  "HeaderProContact": "Contact",
+  "HeaderProProjets" :"Projets vr",
   "downloadcv": "Télécharger le CV",
   "downloadcdr": "Carnet de recherche",
   "message": "bonjoour i18n !!",
@@ -10,13 +13,19 @@
   "close": "Quitter",
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
-    "school":"Etudiant troisième années Bachelor ESDAC",
+    "school":"Etudiant en Master - ESDAC",
     "alternance":"Alternance à l'agence DOUX Architecte",
+    "titrepro":"Freelance - Perspectiviste & Graphiste 3D",
+    "espacepro":"Bienvenue dans l'espace professionnels",
     "Description": {
       "paragraph1":"Durant ma formation et mes stages j’ai eu l’opportunité de travailler sur différents types de projet comme la construction de Poolhouse, l’aménagement d’une colocation, d’espace privé notamment une salle à manger et une salle de bain.",
       "paragraph2":"La conception de projet et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume par la réalisation de maquettes et rendu 3D. "
     },
-    "button":"Curriculum Vitae"
+    "button":"Curriculum Vitae",
+    "DescriptionPro": {
+      "paragraph1":"Travaillant chez un architecte depuis 1 an j'ai décidé de me spécialiser en visualisation architectural. Mon métier mélange l'artistique et la technique et consiste à réaliser des images de synthèse qui permettent aux gens de se projeter dans leur futur projet.",
+      "paragraph2":"Je réalise des plans 3D, des rendues images et vidéos, de la modélisation 3D tout en m'adaptant à la demande du client. N'hésitez pas à me contacter si vous avez un projet ou à aller voir mon portfolio."
+    }
   },
   "PreSkills":"Competences",
   "PreHandDrawn":"Dessin à la main",
@@ -46,6 +55,21 @@
   "FilterStudent": "Etudiant",
   "FilterPersonal": "Personnel",
   "FilterIProfessional": "Professionnel",
+  "CarouselPros": {
+    "CarouselPro99": {
+      "name": "Ancien Stade Nautique - Bellerive-Sur-Allier",
+      "src": [
+        { "img": "ProPresentation/ServiceTexturePlan2D/ProjetColocPlan.jpg", "tooltip": "Plan 2D matériaux"},
+        { "img": "ProPresentation/ServiceTexturePlan2D/ProjetColocPlan.jpg", "tooltip": "Plan 3D"},
+        { "img": "ProPresentation/ServiceTexturePlan2D/ProjetColocPlan.jpg", "tooltip": "Rendu Image 3D"},
+        { "img": "ProPresentation/ServiceTexturePlan2D/ProjetColocPlan.jpg", "tooltip": "Réalisation de vidéo"}
+      ],
+      "CarouselProText": [
+        "azerty",
+        "zzzz"
+      ]
+    }
+  },
   "Projects": {
     "Project91": {
       "name":"Ancien Stade Nautique - Bellerive-Sur-Allier",
@@ -255,7 +279,6 @@
         ]
       }
     },
-
     "Project99": {
       "name":"La Chambre",
       "description": "Professional",

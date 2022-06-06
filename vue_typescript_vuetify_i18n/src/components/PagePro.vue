@@ -1,10 +1,10 @@
 <template>
   <div fluid pa-0>
     <v-container fluid pa-0>
-      <pf-HomeCover id="home"/>
+      <pf-HomeCoverPro carousel-pro="" id="home"/>
     </v-container>
     <v-container id="present">
-      <pf-PresentationHomePage/>
+      <pf-PresentationHomePagePro/>
     </v-container>
     <v-container fluid pa-0  id="contacts">
       <pf-ContactsPro/>
@@ -23,6 +23,6 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'HelloWorld'
+  name: 'PagePro'
 })
 </script>
