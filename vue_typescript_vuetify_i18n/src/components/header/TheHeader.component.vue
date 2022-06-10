@@ -36,7 +36,7 @@
       <h4 class="nav_menu mr-4">|</h4>
       <a class="nav_menu mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
       <h4 class="nav_menu mr-4">|</h4>
-      <a class="nav_menu mr-4" color="transparent" style="text-decoration: none; color:#cf9b58 !important" href="https://www.mazal-mathieu.fr/pro" ><h3>{{$t('SpacePro')}}</h3></a>
+      <a class="nav_menu mr-4" color="transparent" style="text-decoration: none; color:#cf9b58 !important" href="https://www.mazal-mathieu.fr/#/pro" ><h3>{{$t('SpacePro')}}</h3></a>
       <h4 class="nav_menu mr-4">|</h4>
       <pf-locale/>
     </v-app-bar>
