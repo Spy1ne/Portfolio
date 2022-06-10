@@ -63,7 +63,12 @@
             </v-list-item-icon>
             <a class="mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h4>{{$t('HeaderProjets')}}</h4></a>
           </v-list-item>
-
+        <v-list-item>
+          <v-list-item-icon>
+            <v-icon>mdi-account-multiple-check-outline</v-icon>
+          </v-list-item-icon>
+            <a class="mr-4" align="left" color="transparent" style="text-decoration: none; color:#cf9b58 !important" href="https://www.mazal-mathieu.fr/#/pro" ><h4>{{$t('SpacePro')}}</h4></a>
+        </v-list-item>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

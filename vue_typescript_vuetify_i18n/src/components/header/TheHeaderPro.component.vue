@@ -53,6 +53,12 @@
             </v-list-item-icon>
             <a class="mr-4" style="color:white !important" @click="scrollTo('#contacts')"><h4>{{$t('HeaderProContact')}}</h4></a>
           </v-list-item>
+                  <v-list-item>
+          <v-list-item-icon>
+            <v-icon>mdi-book-open-page-variant-outline</v-icon>
+          </v-list-item-icon>
+            <a class="mr-4" align="left" color="transparent" style="text-decoration: none; color:#cf9b58 !important" href="https://www.mazal-mathieu.fr/" ><h4>{{$t('SpacePortfolio')}}</h4></a>
+        </v-list-item>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
