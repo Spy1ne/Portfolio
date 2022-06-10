@@ -1,16 +1,16 @@
 <template>
-  <div class="about">
+  <div class="Pro">
     <pf-header-pro/>
     <page-pro class="mt-16"/>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from 'vue'
 import PagePro from '../components/PagePro.vue'
 
 export default Vue.extend({
-  name: 'Home',
+  name: 'Pro',
 
   components: {
     PagePro
