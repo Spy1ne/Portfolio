@@ -21,7 +21,6 @@ import Contacts from '@/components/contacts/contacts.component.vue'
 import PresentationHomePagePro from '@/components/presentation-home-page/PresentationHomePagePro.component.vue'
 import HomeCoverPro from '@/components/home-cover/HomeCoverPro.component.vue'
 import ContactsPro from '@/components/contacts/contactspro.component.vue'
-import ContactsProForm from '@/components/contacts/contactsproform.component.vue'
 
 /* Import Projet Sheet
 import Project100 from '@/components/projects-all-details/Project100.component.vue'
@@ -55,7 +54,6 @@ Vue.component('pf-Contacts', Contacts)
 Vue.component('pf-PresentationHomePagePro', PresentationHomePagePro)
 Vue.component('pf-HomeCoverPro', HomeCoverPro)
 Vue.component('pf-ContactsPro', ContactsPro)
-Vue.component('pf-ContactsProForm', ContactsProForm)
 
 /* Component Projet Sheet
 Vue.component('pf-Project100', Project100)

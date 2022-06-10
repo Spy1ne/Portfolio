@@ -1,21 +1,17 @@
 <template>
   <div fluid pa-0>
     <v-container fluid pa-0>
-      <pf-HomeCoverPro carousel-pro="" id="home"/>
+      <pf-HomeCoverPro id="home" carousel-pro="" />
+      <p id="present"></p>
+      <pf-PresentationHomePagePro class="mb-9"/>
     </v-container>
-    <v-container id="present">
-      <pf-PresentationHomePagePro/>
-    </v-container>
-    <v-container fluid pa-0  id="contacts">
-      <pf-ContactsPro/>
-    </v-container>
-    <v-container fluid pa-0 id="projects">
-      <v-divider></v-divider>
-      <v-card class='rounded-0' align="center" color="blue-grey darken-4" elevation='14'>
-         <pf-CardsProjectsPresentation/>
+      <v-divider class="" opacity="0" color="white"/>
+      <v-divider class="mb-3" opacity="0" color="white"/>
+    <v-container fluid pa-0 id="contacts">
+      <v-card class='rounded-0' align="center" color="blue-grey darken-4">
+        <pf-ContactsPro/>
       </v-card>
     </v-container>
-    <v-divider color="white"/>
   </div>
 </template>
 

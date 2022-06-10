@@ -2,7 +2,7 @@
   <div >
     <v-menu open-on-hover bottom offset-y>
       <template v-slot:activator="{ on, attrs }">
-        <v-btn color='transparent' v-bind="attrs" v-on="on"><country-flag class='mr-1'/>{{$store.state.locale}}</v-btn>
+        <v-btn color='transparent' v-bind="attrs" v-on="on">{{$store.state.locale}}</v-btn>
       </template>
       <!--<v-card class="mt-3" max-width="400" color="transparent">
         <v-list-item-group v-for="locale in locales" :key="locale.code">

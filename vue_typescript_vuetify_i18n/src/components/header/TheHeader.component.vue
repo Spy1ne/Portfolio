@@ -22,10 +22,11 @@
       </div>
 </div>-->
   <div>
+    <v-row >
     <v-app-bar color='rgb(38, 50, 56, 0.6)' app >
       <v-app-bar-nav-icon class="nav_item" @click="drawer = true"></v-app-bar-nav-icon>
-      <v-toolbar-title class="">
-        <a  @click="scrollTo('#home')" style="color:white !important; " >{{$store.state.name}}</a>
+      <v-toolbar-title>
+        <a @click="scrollTo('#home')" style="color:white !important; " >{{$store.state.name}}</a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <h4 class="nav_menu mr-4">|</h4>
@@ -35,8 +36,11 @@
       <h4 class="nav_menu mr-4">|</h4>
       <a class="nav_menu mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProjets')}}</h3></a>
       <h4 class="nav_menu mr-4">|</h4>
+      <a class="nav_menu mr-4" color="transparent" style="text-decoration: none; color:#cf9b58 !important" href="https://www.mazal-mathieu.fr/pro" ><h3>{{$t('SpacePro')}}</h3></a>
+      <h4 class="nav_menu mr-4">|</h4>
       <pf-locale/>
     </v-app-bar>
+    </v-row>
 
     <v-navigation-drawer v-model="drawer" temporary app color='rgb(38, 50, 56, 0.8)' class="nav_item">
       <v-list class="mt-10" nav dense>

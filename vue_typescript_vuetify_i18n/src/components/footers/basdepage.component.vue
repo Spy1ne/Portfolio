@@ -10,7 +10,7 @@
     </v-card-text>
         <v-divider></v-divider>
         <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} <strong>- MAZAL Mathieu</strong>
+        2021 - {{ new Date().getFullYear() }} <strong>- MAZAL Mathieu</strong>
     </v-card-text>
   </v-card>
   </v-footer>

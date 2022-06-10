@@ -1,6 +1,6 @@
 <template >
-    <div>
-        <v-card flat color="transparent" align="center" justify="center" class="mt-5 mb-14">
+    <div >
+        <v-card flat color="transparent" align="center" justify="center" class="mt-8 mb-4">
             <v-row align="center" justify="center">
                 <v-col class="mt-4 mb-3" cols="12" lg="8">
                     <h1 class="" >{{ $t("PresentationHomePage.titrepro") }}</h1>
@@ -11,7 +11,6 @@
                 </v-col>
             </v-row>
         </v-card>
-        <v-card color="transparent">
             <v-card-text color="transparent" min-height="80%" align="center" class="">
                 <v-row justify="center">
                     <v-col cols="2" md="auto">
@@ -64,7 +63,6 @@
                     </v-col>
                 </v-row>
             </v-card-text>
-        </v-card>
     </div>
 </template>
 

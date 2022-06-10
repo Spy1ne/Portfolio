@@ -33,7 +33,7 @@
       <h4 class="nav_menu mr-4">|</h4>
       <a class="nav_menu mr-4" style="color:white !important" @click="scrollTo('#contacts')"><h3>{{$t('HeaderProContact')}}</h3></a>
       <h4 class="nav_menu mr-4">|</h4>
-      <a class="nav_menu mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h3>{{$t('HeaderProProjets')}}</h3></a>
+      <a class="nav_menu mr-4" color="transparent" style="text-decoration: none; color:#cf9b58 !important" href="https://www.mazal-mathieu.fr/" ><h3>{{$t('SpacePortfolio')}}</h3></a>
       <h4 class="nav_menu mr-4">|</h4>
       <pf-locale/>
     </v-app-bar>
@@ -53,13 +53,6 @@
             </v-list-item-icon>
             <a class="mr-4" style="color:white !important" @click="scrollTo('#contacts')"><h4>{{$t('HeaderProContact')}}</h4></a>
           </v-list-item>
-          <v-list-item @click="drawer = false">
-            <v-list-item-icon>
-              <v-icon>mdi-presentation</v-icon>
-            </v-list-item-icon>
-            <a class="mr-4" color="transparent" style="color:white !important" @click="scrollTo('#projects')"><h4>{{$t('HeaderProProjets')}}</h4></a>
-          </v-list-item>
-
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
