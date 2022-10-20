@@ -2,7 +2,7 @@
     <div >
         <v-card flat color="transparent" align="center" justify="center" class="mt-8 mb-4">
             <v-row align="center" justify="center">
-                <v-col class="mt-4 mb-3" cols="12" lg="8">
+                <v-col class="mt-4 mb-3" cols="12" md="8" lg="6">
                     <h1 class="" >{{ $t("PresentationHomePage.titrepro") }}</h1>
                     <p align="center">
                         <br />{{ $t("PresentationHomePage.DescriptionPro.paragraph1") }}

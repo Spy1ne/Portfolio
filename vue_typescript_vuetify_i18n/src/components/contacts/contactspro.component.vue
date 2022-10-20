@@ -111,7 +111,7 @@ export default Vue.extend({
     selectErrors () {
       const errors = []
       if (!this.$v.select.$dirty) return errors
-      !this.$v.select.required && errors.push('Item is required')
+      !this.$v.select.required && errors.push('Service is required')
       return errors
     },
     nameErrors () {
