@@ -51,12 +51,19 @@
   "PreSkills":"Competences",
   "PreHandDrawn":"Dessin à la main",
   "PreModel":"Maquette",
+  "PreTimelineDate07": "2022-2023",
+  "PreTimelineTitre07": "Cabinet d'architecte Atelier AA",
+  "PreTimelineDescr07": "Alternance cabinet d'architecte (Montpellier)",
+  "PreTimelineDescr07_1": "Participation aux projets et d'un référentiel",
+  "PreTimelineDate06": "2022-2024",
+  "PreTimelineTitre06": "Master ESDAC (Montpellier)",
+  "PreTimelineDescr06": "Master Architecte Intèrieur",
   "PreTimelineDate01": "2019-2022",
   "PreTimelineTitre01": "ESDAC (Clermont-Ferrand)",
-  "PreTimelineDescr01": "3ème année de Bachelor Design d'Espace",
+  "PreTimelineDescr01": "Obtention du Bachelor Design d'Espace - Session 2022",
   "PreTimelineDate05": "2021-2022",
-  "PreTimelineTitre05": "Alternance cabinet d'architecte (Vichy)",
-  "PreTimelineDescr05": "Agence DOUX Architecte",
+  "PreTimelineTitre05": "Agence DOUX Architecte",
+  "PreTimelineDescr05": "Alternance cabinet d'architecte (Vichy)",
   "PreTimelineDescr05_1": "Participation aux projets",
   "PreTimelineDate02": "Juillet-Août 2021",
   "PreTimelineTitre02": "Stage cabinet d'architecte (Vichy)",
@@ -92,6 +99,64 @@
     }
   },
   "Projects": {
+    "Project89": {
+      "name":"Projet Multisport - Montpellier",
+      "description": "Student",
+      "thumbnail_name": "ProjetPresentation/ProjetMultiSportJardin.png",
+      "softwares": [
+        { "logo": "logo-soft/archicad_50px_50px.png", "tooltip": "Archicad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinRendu03.jpg",
+        "description": [
+          "Le projet ici porté sur le réaménagement d'une parcelle au coeur de Montpellier.Tous en respectant son environnement (Nature, Population, etc.)",
+          "Le but était de réaménager cet espace qui comporte actuelement un terrain de basket et un jardin collectif",
+          "Dans mon projet j'ai voulu garder les usages initials qui répondé à une demande du quartier. Mon objectif était de diversifié le projet en rendant acccessible pour tout ages et en créant un réel espace cohérent avec le lieu et ouvert vers l'exterieur.",
+          "Un mur en bois qui prend la forme des limitation du terrain pour marquer un seuil entre le lieux et la voirie, par la même occasion il créer un parcours ou plusieur modules viens se matérialisé (Parking cyclabre, Assises, modules sportif, etc.).",
+          "Le mur en bois avec ses différentes ouverture permet de chercher une curiosité entre le public et le projet, il cache un vis à vis avec la voirie et étant proche d'un carrefour il viens atténuer le bruit des voitures.",
+          "Projet effectué lors de mon Master à l'ESDAC - Montpellier en 2022"
+        ],
+        "srcp": [
+          "ProjetPresentation/ProjetMultiSportJardin/CarnetRenduProjetM1Multisport.pdf"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinAxo.png",
+          "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinRendu01.jpg",
+          "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinRendu02.jpg",
+          "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinRendu04.jpg",
+          "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinRendu04.jpg",
+          "ProjetPresentation/ProjetMultiSportJardin/ProjetMultiSportJardinRendu05.jpg"
+        ]
+      }
+    },
+    "Project90": {
+      "name":"Le Terminal - Montpellier",
+      "description": "Student",
+      "thumbnail_name": "ProjetPresentation/ProjetTerminalAnalyse.jpg",
+      "softwares": [
+        { "logo": "logo-soft/archicad_50px_50px.png", "tooltip": "Archicad"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetTerminalAnalyse/ProjetTerminalAnalyse04.jpg",
+        "description": [
+          "Le Terminal est un ancien bâtiment qui est divisé en deux partie.",
+          "L'objectif était de faire une analyse compléte du site (Situation géographique, Tissu urbain, Analyse physique et technique) et du bâtiment." ,
+          "Il y avait ici un travail visuel sur la shématisation et la mise en page sur format A1",
+          "Projet effectué lors de ma 3ème année d'études à l'ESDAC - Clermont-Ferrand en 2021"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetTerminalAnalyse/ProjetTerminalAnalyse03.jpg",
+          "ProjetPresentation/ProjetTerminalAnalyse/ProjetTerminalAnalyse01.jpg",
+          "ProjetPresentation/ProjetTerminalAnalyse/ProjetTerminalAnalyse02.jpg"
+        ]
+      }
+    },
     "Project91": {
       "name":"Ancien Stade Nautique - Bellerive-Sur-Allier",
       "description": "Student",

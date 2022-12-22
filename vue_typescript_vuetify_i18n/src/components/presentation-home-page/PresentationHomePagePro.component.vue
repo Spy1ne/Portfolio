@@ -37,6 +37,14 @@
                             <span>Rhino</span>
                         </v-tooltip>
                     </v-col>
+                    <v-col cols="2" md="auto">
+                        <v-tooltip bottom>
+                            <template v-slot:activator="{on, attrs}">
+                                <v-img width="70px" class="hvr-logo" src="@/assets/logo-soft/archicad_50px_50px.png" v-on="on" v-bind="attrs"/>
+                            </template>
+                            <span>Archicad</span>
+                        </v-tooltip>
+                    </v-col>
                     <v-col cols="2" md="auto" >
                         <v-tooltip bottom>
                             <template v-slot:activator="{on, attrs}">

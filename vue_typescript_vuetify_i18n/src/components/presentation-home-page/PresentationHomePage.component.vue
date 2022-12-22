@@ -46,6 +46,14 @@
                                             <span>Rhino</span>
                                         </v-tooltip>
                                     </v-col>
+                                    <v-col color="" cols="2" md="auto">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{on, attrs}">
+                                                <v-img width="57px" src="@/assets/logo-soft/archicad_50px_50px.png" v-on="on" v-bind="attrs"/>
+                                            </template>
+                                            <span>Archicad</span>
+                                        </v-tooltip>
+                                    </v-col>
                                     <v-col cols="2" md="auto">
                                         <v-tooltip bottom>
                                             <template v-slot:activator="{on, attrs}">
@@ -114,6 +122,31 @@
                             </v-card-text>
                         </v-card>
                         <v-timeline class="text-center">
+                            <v-timeline-item class="mt-3" icon="mdi-school" color="teal darken-1" fill-dot>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate06")}}</span>
+                                <v-card outlined >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
+                                    <h3>{{$t("PreTimelineTitre06")}}</h3>
+                                    </v-card>
+                                    <v-card-text class="white text--primary">
+                                        <p>{{$t("PreTimelineDescr06")}}</p>
+                                    </v-card-text>
+                                </v-card>
+                            </v-timeline-item>
+                            <v-timeline-item class="mt-3" icon="mdi-briefcase-variant" color="teal darken-1" fill-dot>
+                                <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate07")}}</span>
+                                <v-card outlined >
+                                    <v-card class='rounded-0' color="teal darken-2 !important" >
+                                    <h3>{{$t("PreTimelineTitre07")}}</h3>
+                                    </v-card>
+                                    <v-card-text class="white text--primary">
+                                        <p>
+                                            {{$t("PreTimelineDescr07")}}<br />
+                                            {{$t("PreTimelineDescr07_1")}}
+                                        </p>
+                                    </v-card-text>
+                                </v-card>
+                            </v-timeline-item>
                             <v-timeline-item class="mt-3" icon="mdi-school" color="teal darken-1" fill-dot>
                                 <span class="font-weight-bold" slot="opposite">{{$t("PreTimelineDate01")}}</span>
                                 <v-card outlined >
