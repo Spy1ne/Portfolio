@@ -16,7 +16,7 @@
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
     "school":"Etudiant en Master - ESDAC Montpellier",
-    "alternance":"Alternance à l'agence Atelier AA",
+    "alternance":"Alternance à l'agence Atelier AA - Architecte d'intérieur",
     "titrepro":"Freelance - Perspectiviste & Graphiste 3D",
     "espacepro":"Bienvenue dans l'espace professionnels",
     "Description": {
@@ -25,8 +25,8 @@
     },
     "button":"Curriculum Vitae",
     "DescriptionPro": {
-      "paragraph1":"Travaillant chez un architecte depuis 1 an j'ai décidé de me spécialiser en visualisation architectural. Mon métier mélange l'artistique et la technique et consiste à réaliser des images de synthèse qui permettent à chaque personne de se projeter dans leur futur projet.",
-      "paragraph2":"Je réalise des plans 3D, des rendues images et vidéos, de la modélisation 3D tout en m'adaptant à la demande du client. N'hésitez pas à me contacter si vous avez un projet ou à aller voir mon portfolio pour plus de détails."
+      "paragraph1":"Travaillant avec des architectes depuis plus de 1 an j'ai décidé de me spécialiser dans la visualisation architectural. Mon métier mélange l'artistique et la technique et consiste à réaliser des images de synthèse qui permettent à chaque personne de se projeter dans leur futur projet.",
+      "paragraph2":"Je réalise des plans 2D et 3D, des rendues images et vidéos, de la modélisation 3D tout en m'adaptant à la demande du client. N'hésitez pas à me contacter si vous avez un projet ou à aller voir mon portfolio pour plus de détails."
     }
   },
   "E-mail": "Par mail : mazal.mathieu@outlook.fr",
