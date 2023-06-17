@@ -517,30 +517,6 @@
           "ProjetPresentation/ProjetBiblioTruck/ProjetBiblioTruckPersInt.jpg"
         ]
       }
-    },
-    "": {
-      "name":"Pop-up Store",
-      "description": "Student",
-      "thumbnail_name": "ProjetPresentation/projetpopupres.png",
-      "softwares": [
-        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"},
-        { "logo": "logo-soft/autocad_50px_50px.png", "tooltip": "Autocad"},
-        { "logo": "logo-soft/pencil_50px_50px.png", "tooltip": "Dessin à la main"}
-      ],
-      "tag" : "Student",
-      "v_sheet": {
-        "src": "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreAxo.png",
-        "description": [
-          "En groupe nous devions aménager un pop-up store en reprenant le principe de la marque Dr. Martens.",
-          "Le concept était de montrer le dynamisme de cette marque tout en reprenant son histoire et son design.",
-          "Projet effectué lors de mes études à l'ESDAC - Clermont-Ferrand en 2020"
-        ],
-        "src1": [
-          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreShemas.png",
-          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStorePlan.png",
-          "ProjetPresentation/ProjetPopUpStore/ProjetPopUpStoreCoupe.png"
-        ]
-      }
     }
   }
 }
