@@ -61,6 +61,18 @@
                           <v-col cols="12" v-for="srcp in $props.project.v_sheet.srcp" :key="srcp">
                             <v-btn class="amber--text text--lighten-3 font-weight-bold" target="_blank" :href="require(`@/assets/${$props.project.v_sheet.srcp}`)" >{{$t("downloadcdr")}}</v-btn>
                           </v-col>
+                          <v-col cols="12" v-for="srcp1 in $props.project.v_sheet.srcp1" :key="srcp1">
+                            <v-btn class="amber--text text--lighten-3 font-weight-bold" target="_blank" :href="require(`@/assets/${$props.project.v_sheet.srcp1}`)" >{{$t("downloadPlanESQ")}}</v-btn>
+                          </v-col>
+                          <v-col cols="12" v-for="srcp2 in $props.project.v_sheet.srcp2" :key="srcp2">
+                            <v-btn class="amber--text text--lighten-3 font-weight-bold" target="_blank" :href="require(`@/assets/${$props.project.v_sheet.srcp2}`)" >{{$t("downloadPlanAPS")}}</v-btn>
+                          </v-col>
+                          <v-col cols="12" v-for="srcp3 in $props.project.v_sheet.srcp3" :key="srcp3">
+                            <v-btn class="amber--text text--lighten-3 font-weight-bold" target="_blank" :href="require(`@/assets/${$props.project.v_sheet.srcp3}`)" >{{$t("downloadPlanAPD")}}</v-btn>
+                          </v-col>
+                          <v-col cols="12" v-for="srcp4 in $props.project.v_sheet.srcp4" :key="srcp4">
+                            <v-btn class="amber--text text--lighten-3 font-weight-bold" target="_blank" :href="require(`@/assets/${$props.project.v_sheet.srcp4}`)" >{{$t("downloadPlanPRODCE")}}</v-btn>
+                          </v-col>
                         <v-divider width="800px" class="mt-5 mb-8 mt-1" color="#cf9b58"/>
                       </v-col>
                       <v-col cols="12" v-for="srcv in $props.project.v_sheet.srcv" :key="srcv">

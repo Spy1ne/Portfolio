@@ -7,6 +7,10 @@
   "HeaderProProjets" :"Projets vr",
   "downloadcv": "Télécharger le CV",
   "downloadcdr": "Carnet de recherche",
+  "downloadPlanESQ": "Dossier ESQ",
+  "downloadPlanAPS": "Dossier APS",
+  "downloadPlanAPD": "Dossier APD",
+  "downloadPlanPRODCE": "Dossier Pro/DCE",
   "message": "bonjoour i18n !!",
   "TitleAllProject":"Projets",
   "return": "RETOUR",
@@ -99,6 +103,49 @@
     }
   },
   "Projects": {
+    "Project88": {
+      "name":"Temporium                    Agropolis Museum - Montpellier",
+      "description": "Student",
+      "thumbnail_name": "ProjetPresentation/ProjetPFEMontpellier.jpg",
+      "softwares": [
+        { "logo": "logo-soft/archicad_50px_50px.png", "tooltip": "Archicad"},
+        { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
+        { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+      ],
+      "tag" : "Student",
+      "v_sheet": {
+        "src": "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier01.jpg",
+        "description": [
+          "Ce projet s'inscrit dans la continuité de mon mémoire intitulé [L'architecture de demain sur les traces du passé]. L'objectif principal était de redonner vie à un bâtiment qui n'a pas su s'adapter aux évolutions et qui, par conséquent, a été fermé puis abandonné.",
+          "Le choix s'est porté sur l'Agropolis Museum, situé à Montpellier (34), un lieu répondant parfaitement à ces critères. Le projet vise à revitaliser le quartier environnant, principalement composé d'étudiants et de professionnels actifs, en y intégrant divers usages bénéfiques pour la communauté.",
+          "Le projet concerne la réaménagement d'une parcelle au cœur de Montpellier, en respectant scrupuleusement son environnement, qu'il soit naturel ou humain. Le concept se matérialise sous la forme d'un complexe hôtelier, comprenant une partie dédiée aux clients et une autre accessible au public, divisée en plusieurs zones. On y retrouve des habitations, un restaurant, un espace de coworking, ainsi qu'un spa.",
+          "Ce projet a été réalisé dans le cadre de mon Master à l'ESDAC de Montpellier en 2024."
+        ],
+        "srcp1": [
+          "ProjetPresentation/ProjetPFEMontpellier/01_Dossier_ESQ.pdf"
+        ],
+        "srcp2": [
+          "ProjetPresentation/ProjetPFEMontpellier/02_Dossier_APS.pdf"
+        ],
+        "srcp3": [
+          "ProjetPresentation/ProjetPFEMontpellier/03_Dossier_APD.pdf"
+        ],
+        "srcp4": [
+          "ProjetPresentation/ProjetPFEMontpellier/04_Dossier_PRO-DCE.pdf"
+        ],
+        "src1": [
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier02.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier03.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier04.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier05_1.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier05.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier06.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier07.png",
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier08.jpg"
+        ]
+      }
+    },
     "Project89": {
       "name":"Projet Multisport - Montpellier",
       "description": "Student",
