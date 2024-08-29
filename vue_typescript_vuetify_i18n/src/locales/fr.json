@@ -19,18 +19,18 @@
   "clear": "Effacer",
   "PresentationHomePage": {
     "name":"MAZAL Mathieu",
-    "school":"Etudiant en Master - ESDAC Montpellier",
+    "school":"Diplômé du Mastère en Architecture d'intérieur - ESDAC Montpellier",
     "alternance":"Alternance à l'agence Atelier AA - Architecte d'intérieur",
     "titrepro":"Freelance - Perspectiviste & Graphiste 3D",
     "espacepro":"Bienvenue dans l'espace professionnels",
     "Description": {
-      "paragraph1":"Durant ma formation et mes stages j’ai eu l’opportunité de travailler sur différents types de projet comme la construction de Poolhouse, l’aménagement d’une colocation, d’espace privé notamment une salle à manger et une salle de bain.",
+      "paragraph1":"Au cours de ma formation et de mon expérience en entreprise en tant qu'alternant, j’ai eu l’opportunité de travailler sur divers projets d'architecture d'intérieur, allant de la conception d'espaces privés à l'aménagement d'espaces collectifs.",
       "paragraph2":"La conception de projet et la création d’espace m'a toujours passionné ainsi que de pouvoir appréhender un plan en volume par la réalisation de maquettes et rendu 3D. "
     },
     "button":"Curriculum Vitae",
     "DescriptionPro": {
       "paragraph1":"Travaillant avec des architectes depuis plus de 1 an j'ai décidé de me spécialiser dans la visualisation architectural. Mon métier mélange l'artistique et la technique et consiste à réaliser des images de synthèse qui permettent à chaque personne de se projeter dans leur futur projet.",
-      "paragraph2":"Je réalise des plans 2D et 3D, des rendues images et vidéos, de la modélisation 3D tout en m'adaptant à la demande du client. N'hésitez pas à me contacter si vous avez un projet ou à aller voir mon portfolio pour plus de détails."
+      "paragraph2":"Ma passion pour l’architecture d’intérieur se manifeste particulièrement dans la conception de projets et la création d’espaces. J'aime transformer des plans en volumes concrets, grâce à la réalisation de maquettes et de rendus qui permettent de visualiser et d'affiner chaque détail du design."
     }
   },
   "E-mail": "Par mail : mazal.mathieu@outlook.fr",
@@ -55,13 +55,13 @@
   "PreSkills":"Competences",
   "PreHandDrawn":"Dessin à la main",
   "PreModel":"Maquette",
-  "PreTimelineDate07": "2022-2023",
+  "PreTimelineDate06": "2022-2024",
+  "PreTimelineTitre06": "ESDAC (Montpellier)",
+  "PreTimelineDescr06": "Obtention du Mastère Architecte Intérieur - Session 2024 ",
+  "PreTimelineDate07": "2022-2024",
   "PreTimelineTitre07": "Cabinet d'architecte Atelier AA",
   "PreTimelineDescr07": "Alternance cabinet d'architecte (Montpellier)",
   "PreTimelineDescr07_1": "Participation aux projets et d'un référentiel",
-  "PreTimelineDate06": "2022-2024",
-  "PreTimelineTitre06": "Master ESDAC (Montpellier)",
-  "PreTimelineDescr06": "Master Architecte Intèrieur",
   "PreTimelineDate01": "2019-2022",
   "PreTimelineTitre01": "ESDAC (Clermont-Ferrand)",
   "PreTimelineDescr01": "Obtention du Bachelor Design d'Espace - Session 2022",
@@ -111,13 +111,14 @@
         { "logo": "logo-soft/archicad_50px_50px.png", "tooltip": "Archicad"},
         { "logo": "logo-soft/build_50px_50px.png", "tooltip": "Maquette"},
         { "logo": "logo-soft/rhino_50px_50px.png", "tooltip": "Rhino"},
-        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"}
+        { "logo": "logo-soft/enscape_50px_50px.png", "tooltip": "Enscape"},
+        { "logo": "logo-soft/photoshop_50px_50px.png", "tooltip": "Photoshop"}
       ],
       "tag" : "Student",
       "v_sheet": {
         "src": "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier01.jpg",
         "description": [
-          "Ce projet s'inscrit dans la continuité de mon mémoire intitulé [L'architecture de demain sur les traces du passé]. L'objectif principal était de redonner vie à un bâtiment qui n'a pas su s'adapter aux évolutions et qui, par conséquent, a été fermé puis abandonné.",
+          "Ce projet s'inscrit dans la continuité de mon mémoire intitulé [L'architecture de demain sur les traces du passé] et marque l'achèvement de mon diplôme de master. L'objectif principal était de redonner vie à un bâtiment qui n'a pas su s'adapter aux évolutions et qui, par conséquent, a été fermé puis abandonné.",
           "Le choix s'est porté sur l'Agropolis Museum, situé à Montpellier (34), un lieu répondant parfaitement à ces critères. Le projet vise à revitaliser le quartier environnant, principalement composé d'étudiants et de professionnels actifs, en y intégrant divers usages bénéfiques pour la communauté.",
           "Le projet concerne la réaménagement d'une parcelle au cœur de Montpellier, en respectant scrupuleusement son environnement, qu'il soit naturel ou humain. Le concept se matérialise sous la forme d'un complexe hôtelier, comprenant une partie dédiée aux clients et une autre accessible au public, divisée en plusieurs zones. On y retrouve des habitations, un restaurant, un espace de coworking, ainsi qu'un spa.",
           "Ce projet a été réalisé dans le cadre de mon Master à l'ESDAC de Montpellier en 2024."
@@ -141,8 +142,9 @@
           "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier05_1.jpg",
           "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier05.jpg",
           "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier06.jpg",
-          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier07.png",
-          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier08.jpg"
+          "ProjetPresentation/ProjetPFEMontpellier/ProjetPFEMontpellier08.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/Maquette_Batiment_01.jpg",
+          "ProjetPresentation/ProjetPFEMontpellier/Maquette_Batiment_05.jpg"
         ]
       }
     },
